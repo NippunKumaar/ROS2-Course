@@ -1,0 +1,25 @@
+running egg_info
+writing ../../build/talker_listener/talker_listener.egg-info/PKG-INFO
+writing dependency_links to ../../build/talker_listener/talker_listener.egg-info/dependency_links.txt
+writing entry points to ../../build/talker_listener/talker_listener.egg-info/entry_points.txt
+writing requirements to ../../build/talker_listener/talker_listener.egg-info/requires.txt
+writing top-level names to ../../build/talker_listener/talker_listener.egg-info/top_level.txt
+reading manifest file '../../build/talker_listener/talker_listener.egg-info/SOURCES.txt'
+writing manifest file '../../build/talker_listener/talker_listener.egg-info/SOURCES.txt'
+running build
+running build_py
+copying talker_listener/subscriber.py -> /home/nippun/ros2_course_test/build/talker_listener/build/lib/talker_listener
+running install
+/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+  warnings.warn(
+running install_lib
+copying /home/nippun/ros2_course_test/build/talker_listener/build/lib/talker_listener/subscriber.py -> /home/nippun/ros2_course_test/install/talker_listener/lib/python3.10/site-packages/talker_listener
+byte-compiling /home/nippun/ros2_course_test/install/talker_listener/lib/python3.10/site-packages/talker_listener/subscriber.py to subscriber.cpython-310.pyc
+running install_data
+running install_egg_info
+removing '/home/nippun/ros2_course_test/install/talker_listener/lib/python3.10/site-packages/talker_listener-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../build/talker_listener/talker_listener.egg-info to /home/nippun/ros2_course_test/install/talker_listener/lib/python3.10/site-packages/talker_listener-0.0.0-py3.10.egg-info
+running install_scripts
+Installing listener script to /home/nippun/ros2_course_test/install/talker_listener/lib/talker_listener
+Installing talker script to /home/nippun/ros2_course_test/install/talker_listener/lib/talker_listener
+writing list of installed files to '/home/nippun/ros2_course_test/build/talker_listener/install.log'

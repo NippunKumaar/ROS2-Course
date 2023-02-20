@@ -1,0 +1,17 @@
+package.xml
+setup.cfg
+setup.py
+../../build/talker_listener/talker_listener.egg-info/PKG-INFO
+../../build/talker_listener/talker_listener.egg-info/SOURCES.txt
+../../build/talker_listener/talker_listener.egg-info/dependency_links.txt
+../../build/talker_listener/talker_listener.egg-info/entry_points.txt
+../../build/talker_listener/talker_listener.egg-info/requires.txt
+../../build/talker_listener/talker_listener.egg-info/top_level.txt
+../../build/talker_listener/talker_listener.egg-info/zip-safe
+resource/talker_listener
+talker_listener/__init__.py
+talker_listener/publisher.py
+talker_listener/subscriber.py
+test/test_copyright.py
+test/test_flake8.py
+test/test_pep257.py

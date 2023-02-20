@@ -1,0 +1,27 @@
+[1.102s] Invoking command in '/home/nippun/ros2_course_test/src/talker_listener': PYTHONPATH=/home/nippun/ros2_course_test/build/talker_listener/prefix_override:/home/nippun/ros2_course_test/install/talker_listener/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/talker_listener build --build-base /home/nippun/ros2_course_test/build/talker_listener/build install --record /home/nippun/ros2_course_test/build/talker_listener/install.log --single-version-externally-managed
+[1.497s] running egg_info
+[1.498s] writing ../../build/talker_listener/talker_listener.egg-info/PKG-INFO
+[1.498s] writing dependency_links to ../../build/talker_listener/talker_listener.egg-info/dependency_links.txt
+[1.498s] writing entry points to ../../build/talker_listener/talker_listener.egg-info/entry_points.txt
+[1.499s] writing requirements to ../../build/talker_listener/talker_listener.egg-info/requires.txt
+[1.499s] writing top-level names to ../../build/talker_listener/talker_listener.egg-info/top_level.txt
+[1.501s] reading manifest file '../../build/talker_listener/talker_listener.egg-info/SOURCES.txt'
+[1.503s] writing manifest file '../../build/talker_listener/talker_listener.egg-info/SOURCES.txt'
+[1.503s] running build
+[1.503s] running build_py
+[1.503s] copying talker_listener/subscriber.py -> /home/nippun/ros2_course_test/build/talker_listener/build/lib/talker_listener
+[1.504s] running install
+[1.504s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[1.504s]   warnings.warn(
+[1.504s] running install_lib
+[1.506s] copying /home/nippun/ros2_course_test/build/talker_listener/build/lib/talker_listener/subscriber.py -> /home/nippun/ros2_course_test/install/talker_listener/lib/python3.10/site-packages/talker_listener
+[1.507s] byte-compiling /home/nippun/ros2_course_test/install/talker_listener/lib/python3.10/site-packages/talker_listener/subscriber.py to subscriber.cpython-310.pyc
+[1.508s] running install_data
+[1.509s] running install_egg_info
+[1.511s] removing '/home/nippun/ros2_course_test/install/talker_listener/lib/python3.10/site-packages/talker_listener-0.0.0-py3.10.egg-info' (and everything under it)
+[1.512s] Copying ../../build/talker_listener/talker_listener.egg-info to /home/nippun/ros2_course_test/install/talker_listener/lib/python3.10/site-packages/talker_listener-0.0.0-py3.10.egg-info
+[1.513s] running install_scripts
+[1.542s] Installing listener script to /home/nippun/ros2_course_test/install/talker_listener/lib/talker_listener
+[1.543s] Installing talker script to /home/nippun/ros2_course_test/install/talker_listener/lib/talker_listener
+[1.543s] writing list of installed files to '/home/nippun/ros2_course_test/build/talker_listener/install.log'
+[1.584s] Invoked command in '/home/nippun/ros2_course_test/src/talker_listener' returned '0': PYTHONPATH=/home/nippun/ros2_course_test/build/talker_listener/prefix_override:/home/nippun/ros2_course_test/install/talker_listener/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/talker_listener build --build-base /home/nippun/ros2_course_test/build/talker_listener/build install --record /home/nippun/ros2_course_test/build/talker_listener/install.log --single-version-externally-managed

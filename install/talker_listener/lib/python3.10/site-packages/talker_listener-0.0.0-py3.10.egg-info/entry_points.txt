@@ -1,0 +1,4 @@
+[console_scripts]
+listener = talker_listener.subscriber:main
+talker = talker_listener.publisher:main
+
