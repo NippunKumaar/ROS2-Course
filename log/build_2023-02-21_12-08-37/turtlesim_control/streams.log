@@ -1,0 +1,24 @@
+[1.234s] Invoking command in '/home/nippun/ros2_course_test/src/turtlesim_control': PYTHONPATH=/home/nippun/ros2_course_test/build/turtlesim_control/prefix_override:/home/nippun/ros2_course_test/install/turtlesim_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/turtlesim_control build --build-base /home/nippun/ros2_course_test/build/turtlesim_control/build install --record /home/nippun/ros2_course_test/build/turtlesim_control/install.log --single-version-externally-managed
+[1.623s] running egg_info
+[1.624s] writing ../../build/turtlesim_control/turtlesim_control.egg-info/PKG-INFO
+[1.624s] writing dependency_links to ../../build/turtlesim_control/turtlesim_control.egg-info/dependency_links.txt
+[1.625s] writing entry points to ../../build/turtlesim_control/turtlesim_control.egg-info/entry_points.txt
+[1.625s] writing requirements to ../../build/turtlesim_control/turtlesim_control.egg-info/requires.txt
+[1.625s] writing top-level names to ../../build/turtlesim_control/turtlesim_control.egg-info/top_level.txt
+[1.628s] reading manifest file '../../build/turtlesim_control/turtlesim_control.egg-info/SOURCES.txt'
+[1.629s] writing manifest file '../../build/turtlesim_control/turtlesim_control.egg-info/SOURCES.txt'
+[1.629s] running build
+[1.630s] running build_py
+[1.630s] copying turtlesim_control/turtle_control.py -> /home/nippun/ros2_course_test/build/turtlesim_control/build/lib/turtlesim_control
+[1.630s] running install
+[1.630s] running install_lib
+[1.632s] copying /home/nippun/ros2_course_test/build/turtlesim_control/build/lib/turtlesim_control/turtle_control.py -> /home/nippun/ros2_course_test/install/turtlesim_control/lib/python3.10/site-packages/turtlesim_control
+[1.633s] byte-compiling /home/nippun/ros2_course_test/install/turtlesim_control/lib/python3.10/site-packages/turtlesim_control/turtle_control.py to turtle_control.cpython-310.pyc
+[1.634s] running install_data
+[1.635s] running install_egg_info
+[1.637s] removing '/home/nippun/ros2_course_test/install/turtlesim_control/lib/python3.10/site-packages/turtlesim_control-0.0.0-py3.10.egg-info' (and everything under it)
+[1.637s] Copying ../../build/turtlesim_control/turtlesim_control.egg-info to /home/nippun/ros2_course_test/install/turtlesim_control/lib/python3.10/site-packages/turtlesim_control-0.0.0-py3.10.egg-info
+[1.639s] running install_scripts
+[1.668s] Installing turtle_move script to /home/nippun/ros2_course_test/install/turtlesim_control/lib/turtlesim_control
+[1.668s] writing list of installed files to '/home/nippun/ros2_course_test/build/turtlesim_control/install.log'
+[1.714s] Invoked command in '/home/nippun/ros2_course_test/src/turtlesim_control' returned '0': PYTHONPATH=/home/nippun/ros2_course_test/build/turtlesim_control/prefix_override:/home/nippun/ros2_course_test/install/turtlesim_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/turtlesim_control build --build-base /home/nippun/ros2_course_test/build/turtlesim_control/build install --record /home/nippun/ros2_course_test/build/turtlesim_control/install.log --single-version-externally-managed

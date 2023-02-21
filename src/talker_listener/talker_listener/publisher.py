@@ -28,7 +28,7 @@ def main(args=None):
     # (optional - otherwise it will be done automatically
     # when the garbage collector destroys the node object)
 
-	minimal_subscriber.destroy_node()
+	minimal_publisher.destroy_node()
 	rclpy.shutdown()
 
 

@@ -1,13 +1,13 @@
 <?xml version="1.0"?>
 <?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
 <package format="3">
-  <name>my_first_package</name>
+  <name>turtlesim_control</name>
   <version>0.0.0</version>
-  <description>TODO: Package description</description>
+  <description>Package to control turtlesim turtle</description>
   <maintainer email="nippun05@gmail.com">nippun</maintainer>
-  <license>TODO: License declaration</license>
+  <license>BSD</license>
 
-  <exec_depend>rclpy</exec_depend>exec_depend>
+  <exec_depend>rclpy</exec_depend>
   
   <test_depend>ament_copyright</test_depend>
   <test_depend>ament_flake8</test_depend>

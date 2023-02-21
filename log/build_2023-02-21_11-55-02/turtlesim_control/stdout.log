@@ -1,0 +1,35 @@
+running egg_info
+creating ../../build/turtlesim_control/turtlesim_control.egg-info
+writing ../../build/turtlesim_control/turtlesim_control.egg-info/PKG-INFO
+writing dependency_links to ../../build/turtlesim_control/turtlesim_control.egg-info/dependency_links.txt
+writing entry points to ../../build/turtlesim_control/turtlesim_control.egg-info/entry_points.txt
+writing requirements to ../../build/turtlesim_control/turtlesim_control.egg-info/requires.txt
+writing top-level names to ../../build/turtlesim_control/turtlesim_control.egg-info/top_level.txt
+writing manifest file '../../build/turtlesim_control/turtlesim_control.egg-info/SOURCES.txt'
+reading manifest file '../../build/turtlesim_control/turtlesim_control.egg-info/SOURCES.txt'
+writing manifest file '../../build/turtlesim_control/turtlesim_control.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/nippun/ros2_course_test/build/turtlesim_control/build
+creating /home/nippun/ros2_course_test/build/turtlesim_control/build/lib
+creating /home/nippun/ros2_course_test/build/turtlesim_control/build/lib/turtlesim_control
+copying turtlesim_control/turtle_control.py -> /home/nippun/ros2_course_test/build/turtlesim_control/build/lib/turtlesim_control
+copying turtlesim_control/__init__.py -> /home/nippun/ros2_course_test/build/turtlesim_control/build/lib/turtlesim_control
+running install
+running install_lib
+creating /home/nippun/ros2_course_test/install/turtlesim_control/lib/python3.10/site-packages/turtlesim_control
+copying /home/nippun/ros2_course_test/build/turtlesim_control/build/lib/turtlesim_control/turtle_control.py -> /home/nippun/ros2_course_test/install/turtlesim_control/lib/python3.10/site-packages/turtlesim_control
+copying /home/nippun/ros2_course_test/build/turtlesim_control/build/lib/turtlesim_control/__init__.py -> /home/nippun/ros2_course_test/install/turtlesim_control/lib/python3.10/site-packages/turtlesim_control
+byte-compiling /home/nippun/ros2_course_test/install/turtlesim_control/lib/python3.10/site-packages/turtlesim_control/turtle_control.py to turtle_control.cpython-310.pyc
+byte-compiling /home/nippun/ros2_course_test/install/turtlesim_control/lib/python3.10/site-packages/turtlesim_control/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /home/nippun/ros2_course_test/install/turtlesim_control/share/ament_index
+creating /home/nippun/ros2_course_test/install/turtlesim_control/share/ament_index/resource_index
+creating /home/nippun/ros2_course_test/install/turtlesim_control/share/ament_index/resource_index/packages
+copying resource/turtlesim_control -> /home/nippun/ros2_course_test/install/turtlesim_control/share/ament_index/resource_index/packages
+copying package.xml -> /home/nippun/ros2_course_test/install/turtlesim_control/share/turtlesim_control
+running install_egg_info
+Copying ../../build/turtlesim_control/turtlesim_control.egg-info to /home/nippun/ros2_course_test/install/turtlesim_control/lib/python3.10/site-packages/turtlesim_control-0.0.0-py3.10.egg-info
+running install_scripts
+Installing turtle_move script to /home/nippun/ros2_course_test/install/turtlesim_control/lib/turtlesim_control
+writing list of installed files to '/home/nippun/ros2_course_test/build/turtlesim_control/install.log'
