@@ -1,0 +1,4 @@
+[console_scripts]
+complex_listener = complex_talker_listener.subscriber:main
+complex_talker = complex_talker_listener.publisher:main
+

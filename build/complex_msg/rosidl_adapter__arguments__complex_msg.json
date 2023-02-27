@@ -1,0 +1,6 @@
+{
+  "package_name": "complex_msg",
+  "non_idl_tuples": [
+    "/home/nippun/ros2_course_test/src/complex_msg:msg/Complex.msg"
+  ]
+}

@@ -1,0 +1,6 @@
+setup.py
+complex_msg/__init__.py
+complex_msg.egg-info/PKG-INFO
+complex_msg.egg-info/SOURCES.txt
+complex_msg.egg-info/dependency_links.txt
+complex_msg.egg-info/top_level.txt

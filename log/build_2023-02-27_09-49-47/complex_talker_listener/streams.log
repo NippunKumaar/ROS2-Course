@@ -1,0 +1,41 @@
+[2.886s] Invoking command in '/home/nippun/ros2_course_test/src/complex_talker_listener': LD_LIBRARY_PATH=/home/nippun/ros2_course_test/install/complex_msg/lib:/home/nippun/usr/lib:/home/nippun/usr/lib/x86_64-linux-gnu:/usr/local/lib:/usr/local/lib64:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/home/nippun/usr/lib:/home/nippun/usr/lib/x86_64-linux-gnu:/usr/local/lib:/usr/local/lib64 PYTHONPATH=/home/nippun/ros2_course_test/build/complex_talker_listener/prefix_override:/home/nippun/ros2_course_test/install/complex_talker_listener/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/complex_talker_listener build --build-base /home/nippun/ros2_course_test/build/complex_talker_listener/build install --record /home/nippun/ros2_course_test/build/complex_talker_listener/install.log --single-version-externally-managed
+[3.329s] running egg_info
+[3.330s] creating ../../build/complex_talker_listener/complex_talker_listener.egg-info
+[3.331s] writing ../../build/complex_talker_listener/complex_talker_listener.egg-info/PKG-INFO
+[3.331s] writing dependency_links to ../../build/complex_talker_listener/complex_talker_listener.egg-info/dependency_links.txt
+[3.331s] writing entry points to ../../build/complex_talker_listener/complex_talker_listener.egg-info/entry_points.txt
+[3.332s] writing requirements to ../../build/complex_talker_listener/complex_talker_listener.egg-info/requires.txt
+[3.332s] writing top-level names to ../../build/complex_talker_listener/complex_talker_listener.egg-info/top_level.txt
+[3.332s] writing manifest file '../../build/complex_talker_listener/complex_talker_listener.egg-info/SOURCES.txt'
+[3.335s] reading manifest file '../../build/complex_talker_listener/complex_talker_listener.egg-info/SOURCES.txt'
+[3.336s] writing manifest file '../../build/complex_talker_listener/complex_talker_listener.egg-info/SOURCES.txt'
+[3.336s] running build
+[3.336s] running build_py
+[3.337s] creating /home/nippun/ros2_course_test/build/complex_talker_listener/build
+[3.337s] creating /home/nippun/ros2_course_test/build/complex_talker_listener/build/lib
+[3.337s] creating /home/nippun/ros2_course_test/build/complex_talker_listener/build/lib/complex_talker_listener
+[3.337s] copying complex_talker_listener/__init__.py -> /home/nippun/ros2_course_test/build/complex_talker_listener/build/lib/complex_talker_listener
+[3.337s] copying complex_talker_listener/subscriber.py -> /home/nippun/ros2_course_test/build/complex_talker_listener/build/lib/complex_talker_listener
+[3.338s] copying complex_talker_listener/publisher.py -> /home/nippun/ros2_course_test/build/complex_talker_listener/build/lib/complex_talker_listener
+[3.338s] running install
+[3.338s] running install_lib
+[3.340s] creating /home/nippun/ros2_course_test/install/complex_talker_listener/lib/python3.10/site-packages/complex_talker_listener
+[3.340s] copying /home/nippun/ros2_course_test/build/complex_talker_listener/build/lib/complex_talker_listener/__init__.py -> /home/nippun/ros2_course_test/install/complex_talker_listener/lib/python3.10/site-packages/complex_talker_listener
+[3.340s] copying /home/nippun/ros2_course_test/build/complex_talker_listener/build/lib/complex_talker_listener/subscriber.py -> /home/nippun/ros2_course_test/install/complex_talker_listener/lib/python3.10/site-packages/complex_talker_listener
+[3.340s] copying /home/nippun/ros2_course_test/build/complex_talker_listener/build/lib/complex_talker_listener/publisher.py -> /home/nippun/ros2_course_test/install/complex_talker_listener/lib/python3.10/site-packages/complex_talker_listener
+[3.341s] byte-compiling /home/nippun/ros2_course_test/install/complex_talker_listener/lib/python3.10/site-packages/complex_talker_listener/__init__.py to __init__.cpython-310.pyc
+[3.341s] byte-compiling /home/nippun/ros2_course_test/install/complex_talker_listener/lib/python3.10/site-packages/complex_talker_listener/subscriber.py to subscriber.cpython-310.pyc
+[3.342s] byte-compiling /home/nippun/ros2_course_test/install/complex_talker_listener/lib/python3.10/site-packages/complex_talker_listener/publisher.py to publisher.cpython-310.pyc
+[3.343s] running install_data
+[3.343s] creating /home/nippun/ros2_course_test/install/complex_talker_listener/share/ament_index
+[3.344s] creating /home/nippun/ros2_course_test/install/complex_talker_listener/share/ament_index/resource_index
+[3.344s] creating /home/nippun/ros2_course_test/install/complex_talker_listener/share/ament_index/resource_index/packages
+[3.344s] copying resource/complex_talker_listener -> /home/nippun/ros2_course_test/install/complex_talker_listener/share/ament_index/resource_index/packages
+[3.344s] copying package.xml -> /home/nippun/ros2_course_test/install/complex_talker_listener/share/complex_talker_listener
+[3.345s] running install_egg_info
+[3.348s] Copying ../../build/complex_talker_listener/complex_talker_listener.egg-info to /home/nippun/ros2_course_test/install/complex_talker_listener/lib/python3.10/site-packages/complex_talker_listener-0.0.0-py3.10.egg-info
+[3.349s] running install_scripts
+[3.382s] Installing listener script to /home/nippun/ros2_course_test/install/complex_talker_listener/lib/complex_talker_listener
+[3.383s] Installing talker script to /home/nippun/ros2_course_test/install/complex_talker_listener/lib/complex_talker_listener
+[3.383s] writing list of installed files to '/home/nippun/ros2_course_test/build/complex_talker_listener/install.log'
+[3.425s] Invoked command in '/home/nippun/ros2_course_test/src/complex_talker_listener' returned '0': LD_LIBRARY_PATH=/home/nippun/ros2_course_test/install/complex_msg/lib:/home/nippun/usr/lib:/home/nippun/usr/lib/x86_64-linux-gnu:/usr/local/lib:/usr/local/lib64:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/home/nippun/usr/lib:/home/nippun/usr/lib/x86_64-linux-gnu:/usr/local/lib:/usr/local/lib64 PYTHONPATH=/home/nippun/ros2_course_test/build/complex_talker_listener/prefix_override:/home/nippun/ros2_course_test/install/complex_talker_listener/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/complex_talker_listener build --build-base /home/nippun/ros2_course_test/build/complex_talker_listener/build install --record /home/nippun/ros2_course_test/build/complex_talker_listener/install.log --single-version-externally-managed

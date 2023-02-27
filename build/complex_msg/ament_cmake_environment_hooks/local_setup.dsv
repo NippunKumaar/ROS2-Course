@@ -1,0 +1,4 @@
+source;share/complex_msg/environment/ament_prefix_path.sh
+source;share/complex_msg/environment/library_path.sh
+source;share/complex_msg/environment/path.sh
+source;share/complex_msg/environment/pythonpath.sh
