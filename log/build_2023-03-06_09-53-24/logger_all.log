@@ -1,0 +1,208 @@
+[0.538s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--packages-select', 'add_two_ints']
+[0.538s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=['add_two_ints'], packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7fa8f41b5fc0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7fa8f41b5a50>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7fa8f41b5a50>>)
+[0.597s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.597s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.597s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.597s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.597s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.597s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.597s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/nippun/ros2_course_test'
+[0.597s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.598s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.598s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.598s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.598s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.598s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.598s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.598s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.598s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.620s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.620s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.620s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.620s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.620s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.620s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.620s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.621s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.621s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.621s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.621s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.621s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.621s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.621s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.621s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.621s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.621s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.622s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.622s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.622s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.622s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.622s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.622s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.622s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.622s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.622s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.622s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.622s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.622s] Level 1:colcon.colcon_core.package_identification:_identify(src/add_two_ints) by extensions ['ignore', 'ignore_ament_install']
+[0.622s] Level 1:colcon.colcon_core.package_identification:_identify(src/add_two_ints) by extension 'ignore'
+[0.622s] Level 1:colcon.colcon_core.package_identification:_identify(src/add_two_ints) by extension 'ignore_ament_install'
+[0.623s] Level 1:colcon.colcon_core.package_identification:_identify(src/add_two_ints) by extensions ['colcon_pkg']
+[0.623s] Level 1:colcon.colcon_core.package_identification:_identify(src/add_two_ints) by extension 'colcon_pkg'
+[0.623s] Level 1:colcon.colcon_core.package_identification:_identify(src/add_two_ints) by extensions ['colcon_meta']
+[0.623s] Level 1:colcon.colcon_core.package_identification:_identify(src/add_two_ints) by extension 'colcon_meta'
+[0.623s] Level 1:colcon.colcon_core.package_identification:_identify(src/add_two_ints) by extensions ['ros']
+[0.623s] Level 1:colcon.colcon_core.package_identification:_identify(src/add_two_ints) by extension 'ros'
+[0.627s] DEBUG:colcon.colcon_core.package_identification:Package 'src/add_two_ints' with type 'ros.ament_cmake' and name 'add_two_ints'
+[0.627s] Level 1:colcon.colcon_core.package_identification:_identify(src/complex_msg) by extensions ['ignore', 'ignore_ament_install']
+[0.627s] Level 1:colcon.colcon_core.package_identification:_identify(src/complex_msg) by extension 'ignore'
+[0.627s] Level 1:colcon.colcon_core.package_identification:_identify(src/complex_msg) by extension 'ignore_ament_install'
+[0.627s] Level 1:colcon.colcon_core.package_identification:_identify(src/complex_msg) by extensions ['colcon_pkg']
+[0.627s] Level 1:colcon.colcon_core.package_identification:_identify(src/complex_msg) by extension 'colcon_pkg'
+[0.627s] Level 1:colcon.colcon_core.package_identification:_identify(src/complex_msg) by extensions ['colcon_meta']
+[0.627s] Level 1:colcon.colcon_core.package_identification:_identify(src/complex_msg) by extension 'colcon_meta'
+[0.627s] Level 1:colcon.colcon_core.package_identification:_identify(src/complex_msg) by extensions ['ros']
+[0.627s] Level 1:colcon.colcon_core.package_identification:_identify(src/complex_msg) by extension 'ros'
+[0.628s] DEBUG:colcon.colcon_core.package_identification:Package 'src/complex_msg' with type 'ros.ament_cmake' and name 'complex_msg'
+[0.628s] Level 1:colcon.colcon_core.package_identification:_identify(src/complex_talker_listener) by extensions ['ignore', 'ignore_ament_install']
+[0.628s] Level 1:colcon.colcon_core.package_identification:_identify(src/complex_talker_listener) by extension 'ignore'
+[0.628s] Level 1:colcon.colcon_core.package_identification:_identify(src/complex_talker_listener) by extension 'ignore_ament_install'
+[0.628s] Level 1:colcon.colcon_core.package_identification:_identify(src/complex_talker_listener) by extensions ['colcon_pkg']
+[0.629s] Level 1:colcon.colcon_core.package_identification:_identify(src/complex_talker_listener) by extension 'colcon_pkg'
+[0.629s] Level 1:colcon.colcon_core.package_identification:_identify(src/complex_talker_listener) by extensions ['colcon_meta']
+[0.629s] Level 1:colcon.colcon_core.package_identification:_identify(src/complex_talker_listener) by extension 'colcon_meta'
+[0.629s] Level 1:colcon.colcon_core.package_identification:_identify(src/complex_talker_listener) by extensions ['ros']
+[0.629s] Level 1:colcon.colcon_core.package_identification:_identify(src/complex_talker_listener) by extension 'ros'
+[0.631s] DEBUG:colcon.colcon_core.package_identification:Package 'src/complex_talker_listener' with type 'ros.ament_python' and name 'complex_talker_listener'
+[0.631s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_first_package) by extensions ['ignore', 'ignore_ament_install']
+[0.631s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_first_package) by extension 'ignore'
+[0.631s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_first_package) by extension 'ignore_ament_install'
+[0.631s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_first_package) by extensions ['colcon_pkg']
+[0.631s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_first_package) by extension 'colcon_pkg'
+[0.631s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_first_package) by extensions ['colcon_meta']
+[0.631s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_first_package) by extension 'colcon_meta'
+[0.631s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_first_package) by extensions ['ros']
+[0.631s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_first_package) by extension 'ros'
+[0.632s] DEBUG:colcon.colcon_core.package_identification:Package 'src/my_first_package' with type 'ros.ament_python' and name 'my_first_package'
+[0.632s] Level 1:colcon.colcon_core.package_identification:_identify(src/talker_listener) by extensions ['ignore', 'ignore_ament_install']
+[0.632s] Level 1:colcon.colcon_core.package_identification:_identify(src/talker_listener) by extension 'ignore'
+[0.632s] Level 1:colcon.colcon_core.package_identification:_identify(src/talker_listener) by extension 'ignore_ament_install'
+[0.633s] Level 1:colcon.colcon_core.package_identification:_identify(src/talker_listener) by extensions ['colcon_pkg']
+[0.633s] Level 1:colcon.colcon_core.package_identification:_identify(src/talker_listener) by extension 'colcon_pkg'
+[0.633s] Level 1:colcon.colcon_core.package_identification:_identify(src/talker_listener) by extensions ['colcon_meta']
+[0.633s] Level 1:colcon.colcon_core.package_identification:_identify(src/talker_listener) by extension 'colcon_meta'
+[0.633s] Level 1:colcon.colcon_core.package_identification:_identify(src/talker_listener) by extensions ['ros']
+[0.633s] Level 1:colcon.colcon_core.package_identification:_identify(src/talker_listener) by extension 'ros'
+[0.633s] DEBUG:colcon.colcon_core.package_identification:Package 'src/talker_listener' with type 'ros.ament_python' and name 'talker_listener'
+[0.633s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlesim_control) by extensions ['ignore', 'ignore_ament_install']
+[0.634s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlesim_control) by extension 'ignore'
+[0.634s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlesim_control) by extension 'ignore_ament_install'
+[0.634s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlesim_control) by extensions ['colcon_pkg']
+[0.634s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlesim_control) by extension 'colcon_pkg'
+[0.634s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlesim_control) by extensions ['colcon_meta']
+[0.634s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlesim_control) by extension 'colcon_meta'
+[0.634s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlesim_control) by extensions ['ros']
+[0.634s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlesim_control) by extension 'ros'
+[0.635s] DEBUG:colcon.colcon_core.package_identification:Package 'src/turtlesim_control' with type 'ros.ament_python' and name 'turtlesim_control'
+[0.635s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.635s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.635s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.635s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.635s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.934s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'complex_msg' in 'src/complex_msg'
+[0.935s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'my_first_package' in 'src/my_first_package'
+[0.935s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'talker_listener' in 'src/talker_listener'
+[0.935s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'turtlesim_control' in 'src/turtlesim_control'
+[0.935s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'complex_talker_listener' in 'src/complex_talker_listener'
+[0.954s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.954s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[1.004s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 5 installed packages in /home/nippun/ros2_course_test/install
+[1.008s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 4 installed packages in /home/nippun/ros2_ws/install
+[1.011s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/nippun/ros2_course_ws/install
+[1.018s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 279 installed packages in /opt/ros/humble
+[1.024s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[1.182s] Level 5:colcon.colcon_core.verb:set package 'add_two_ints' build argument 'cmake_args' from command line to 'None'
+[1.182s] Level 5:colcon.colcon_core.verb:set package 'add_two_ints' build argument 'cmake_target' from command line to 'None'
+[1.182s] Level 5:colcon.colcon_core.verb:set package 'add_two_ints' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.182s] Level 5:colcon.colcon_core.verb:set package 'add_two_ints' build argument 'cmake_clean_cache' from command line to 'False'
+[1.182s] Level 5:colcon.colcon_core.verb:set package 'add_two_ints' build argument 'cmake_clean_first' from command line to 'False'
+[1.182s] Level 5:colcon.colcon_core.verb:set package 'add_two_ints' build argument 'cmake_force_configure' from command line to 'False'
+[1.182s] Level 5:colcon.colcon_core.verb:set package 'add_two_ints' build argument 'ament_cmake_args' from command line to 'None'
+[1.182s] Level 5:colcon.colcon_core.verb:set package 'add_two_ints' build argument 'catkin_cmake_args' from command line to 'None'
+[1.182s] Level 5:colcon.colcon_core.verb:set package 'add_two_ints' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.182s] DEBUG:colcon.colcon_core.verb:Building package 'add_two_ints' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/nippun/ros2_course_test/build/add_two_ints', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/nippun/ros2_course_test/install/add_two_ints', 'merge_install': False, 'path': '/home/nippun/ros2_course_test/src/add_two_ints', 'symlink_install': False, 'test_result_base': None}
+[1.183s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[1.189s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[1.189s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/nippun/ros2_course_test/src/add_two_ints' with build type 'ament_cmake'
+[1.189s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/nippun/ros2_course_test/src/add_two_ints'
+[1.351s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[1.351s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.352s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.381s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/nippun/ros2_course_test/build/add_two_ints': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nippun/ros2_course_test/install/turtlesim_control:/home/nippun/ros2_course_test/install/talker_listener:/home/nippun/ros2_course_test/install/my_first_package:/home/nippun/ros2_course_test/install/complex_talker_listener:/home/nippun/ros2_ws/install/tele_op:/home/nippun/ros2_ws/install/talker_listner:/home/nippun/ros2_ws/install/my_first_package:/home/nippun/ros2_ws/install/example:/home/nippun/ros2_course_ws/install/my_first_package:/opt/ros/humble /usr/bin/cmake /home/nippun/ros2_course_test/src/add_two_ints -DCMAKE_INSTALL_PREFIX=/home/nippun/ros2_course_test/install/add_two_ints
+[8.915s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/nippun/ros2_course_test/build/add_two_ints' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nippun/ros2_course_test/install/turtlesim_control:/home/nippun/ros2_course_test/install/talker_listener:/home/nippun/ros2_course_test/install/my_first_package:/home/nippun/ros2_course_test/install/complex_talker_listener:/home/nippun/ros2_ws/install/tele_op:/home/nippun/ros2_ws/install/talker_listner:/home/nippun/ros2_ws/install/my_first_package:/home/nippun/ros2_ws/install/example:/home/nippun/ros2_course_ws/install/my_first_package:/opt/ros/humble /usr/bin/cmake /home/nippun/ros2_course_test/src/add_two_ints -DCMAKE_INSTALL_PREFIX=/home/nippun/ros2_course_test/install/add_two_ints
+[8.917s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/nippun/ros2_course_test/build/add_two_ints': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nippun/ros2_course_test/install/turtlesim_control:/home/nippun/ros2_course_test/install/talker_listener:/home/nippun/ros2_course_test/install/my_first_package:/home/nippun/ros2_course_test/install/complex_talker_listener:/home/nippun/ros2_ws/install/tele_op:/home/nippun/ros2_ws/install/talker_listner:/home/nippun/ros2_ws/install/my_first_package:/home/nippun/ros2_ws/install/example:/home/nippun/ros2_course_ws/install/my_first_package:/opt/ros/humble /usr/bin/cmake --build /home/nippun/ros2_course_test/build/add_two_ints -- -j4 -l4
+[15.547s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/nippun/ros2_course_test/build/add_two_ints' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nippun/ros2_course_test/install/turtlesim_control:/home/nippun/ros2_course_test/install/talker_listener:/home/nippun/ros2_course_test/install/my_first_package:/home/nippun/ros2_course_test/install/complex_talker_listener:/home/nippun/ros2_ws/install/tele_op:/home/nippun/ros2_ws/install/talker_listner:/home/nippun/ros2_ws/install/my_first_package:/home/nippun/ros2_ws/install/example:/home/nippun/ros2_course_ws/install/my_first_package:/opt/ros/humble /usr/bin/cmake --build /home/nippun/ros2_course_test/build/add_two_ints -- -j4 -l4
+[15.687s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/nippun/ros2_course_test/build/add_two_ints': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nippun/ros2_course_test/install/turtlesim_control:/home/nippun/ros2_course_test/install/talker_listener:/home/nippun/ros2_course_test/install/my_first_package:/home/nippun/ros2_course_test/install/complex_talker_listener:/home/nippun/ros2_ws/install/tele_op:/home/nippun/ros2_ws/install/talker_listner:/home/nippun/ros2_ws/install/my_first_package:/home/nippun/ros2_ws/install/example:/home/nippun/ros2_course_ws/install/my_first_package:/opt/ros/humble /usr/bin/cmake --install /home/nippun/ros2_course_test/build/add_two_ints
+[15.840s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(add_two_ints)
+[15.840s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/nippun/ros2_course_test/build/add_two_ints' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nippun/ros2_course_test/install/turtlesim_control:/home/nippun/ros2_course_test/install/talker_listener:/home/nippun/ros2_course_test/install/my_first_package:/home/nippun/ros2_course_test/install/complex_talker_listener:/home/nippun/ros2_ws/install/tele_op:/home/nippun/ros2_ws/install/talker_listner:/home/nippun/ros2_ws/install/my_first_package:/home/nippun/ros2_ws/install/example:/home/nippun/ros2_course_ws/install/my_first_package:/opt/ros/humble /usr/bin/cmake --install /home/nippun/ros2_course_test/build/add_two_ints
+[15.954s] Level 1:colcon.colcon_core.environment:checking '/home/nippun/ros2_course_test/install/add_two_ints' for CMake module files
+[15.958s] Level 1:colcon.colcon_core.environment:checking '/home/nippun/ros2_course_test/install/add_two_ints' for CMake config files
+[15.959s] Level 1:colcon.colcon_core.shell:create_environment_hook('add_two_ints', 'cmake_prefix_path')
+[15.970s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nippun/ros2_course_test/install/add_two_ints/share/add_two_ints/hook/cmake_prefix_path.ps1'
+[15.982s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/nippun/ros2_course_test/install/add_two_ints/share/add_two_ints/hook/cmake_prefix_path.dsv'
+[15.998s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nippun/ros2_course_test/install/add_two_ints/share/add_two_ints/hook/cmake_prefix_path.sh'
+[16.001s] Level 1:colcon.colcon_core.environment:checking '/home/nippun/ros2_course_test/install/add_two_ints/lib'
+[16.002s] Level 1:colcon.colcon_core.shell:create_environment_hook('add_two_ints', 'ld_library_path_lib')
+[16.007s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nippun/ros2_course_test/install/add_two_ints/share/add_two_ints/hook/ld_library_path_lib.ps1'
+[16.008s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/nippun/ros2_course_test/install/add_two_ints/share/add_two_ints/hook/ld_library_path_lib.dsv'
+[16.009s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nippun/ros2_course_test/install/add_two_ints/share/add_two_ints/hook/ld_library_path_lib.sh'
+[16.010s] Level 1:colcon.colcon_core.environment:checking '/home/nippun/ros2_course_test/install/add_two_ints/bin'
+[16.010s] Level 1:colcon.colcon_core.environment:checking '/home/nippun/ros2_course_test/install/add_two_ints/lib/pkgconfig/add_two_ints.pc'
+[16.011s] Level 1:colcon.colcon_core.environment:checking '/home/nippun/ros2_course_test/install/add_two_ints/lib/python3.10/site-packages'
+[16.012s] Level 1:colcon.colcon_core.environment:checking '/home/nippun/ros2_course_test/install/add_two_ints/bin'
+[16.018s] INFO:colcon.colcon_core.shell:Creating package script '/home/nippun/ros2_course_test/install/add_two_ints/share/add_two_ints/package.ps1'
+[16.021s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/nippun/ros2_course_test/install/add_two_ints/share/add_two_ints/package.dsv'
+[16.024s] INFO:colcon.colcon_core.shell:Creating package script '/home/nippun/ros2_course_test/install/add_two_ints/share/add_two_ints/package.sh'
+[16.026s] INFO:colcon.colcon_core.shell:Creating package script '/home/nippun/ros2_course_test/install/add_two_ints/share/add_two_ints/package.bash'
+[16.064s] INFO:colcon.colcon_core.shell:Creating package script '/home/nippun/ros2_course_test/install/add_two_ints/share/add_two_ints/package.zsh'
+[16.067s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/nippun/ros2_course_test/install/add_two_ints/share/colcon-core/packages/add_two_ints)
+[16.150s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(add_two_ints)
+[16.154s] Level 1:colcon.colcon_core.environment:checking '/home/nippun/ros2_course_test/install/add_two_ints' for CMake module files
+[16.155s] Level 1:colcon.colcon_core.environment:checking '/home/nippun/ros2_course_test/install/add_two_ints' for CMake config files
+[16.155s] Level 1:colcon.colcon_core.shell:create_environment_hook('add_two_ints', 'cmake_prefix_path')
+[16.158s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nippun/ros2_course_test/install/add_two_ints/share/add_two_ints/hook/cmake_prefix_path.ps1'
+[16.158s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/nippun/ros2_course_test/install/add_two_ints/share/add_two_ints/hook/cmake_prefix_path.dsv'
+[16.159s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nippun/ros2_course_test/install/add_two_ints/share/add_two_ints/hook/cmake_prefix_path.sh'
+[16.160s] Level 1:colcon.colcon_core.environment:checking '/home/nippun/ros2_course_test/install/add_two_ints/lib'
+[16.160s] Level 1:colcon.colcon_core.shell:create_environment_hook('add_two_ints', 'ld_library_path_lib')
+[16.162s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nippun/ros2_course_test/install/add_two_ints/share/add_two_ints/hook/ld_library_path_lib.ps1'
+[16.163s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/nippun/ros2_course_test/install/add_two_ints/share/add_two_ints/hook/ld_library_path_lib.dsv'
+[16.163s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nippun/ros2_course_test/install/add_two_ints/share/add_two_ints/hook/ld_library_path_lib.sh'
+[16.164s] Level 1:colcon.colcon_core.environment:checking '/home/nippun/ros2_course_test/install/add_two_ints/bin'
+[16.164s] Level 1:colcon.colcon_core.environment:checking '/home/nippun/ros2_course_test/install/add_two_ints/lib/pkgconfig/add_two_ints.pc'
+[16.165s] Level 1:colcon.colcon_core.environment:checking '/home/nippun/ros2_course_test/install/add_two_ints/lib/python3.10/site-packages'
+[16.165s] Level 1:colcon.colcon_core.environment:checking '/home/nippun/ros2_course_test/install/add_two_ints/bin'
+[16.168s] INFO:colcon.colcon_core.shell:Creating package script '/home/nippun/ros2_course_test/install/add_two_ints/share/add_two_ints/package.ps1'
+[16.169s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/nippun/ros2_course_test/install/add_two_ints/share/add_two_ints/package.dsv'
+[16.170s] INFO:colcon.colcon_core.shell:Creating package script '/home/nippun/ros2_course_test/install/add_two_ints/share/add_two_ints/package.sh'
+[16.171s] INFO:colcon.colcon_core.shell:Creating package script '/home/nippun/ros2_course_test/install/add_two_ints/share/add_two_ints/package.bash'
+[16.171s] INFO:colcon.colcon_core.shell:Creating package script '/home/nippun/ros2_course_test/install/add_two_ints/share/add_two_ints/package.zsh'
+[16.172s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/nippun/ros2_course_test/install/add_two_ints/share/colcon-core/packages/add_two_ints)
+[16.173s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[16.173s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[16.173s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[16.174s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[16.363s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[16.363s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[16.363s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[16.417s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[16.421s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/nippun/ros2_course_test/install/local_setup.ps1'
+[16.426s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/nippun/ros2_course_test/install/_local_setup_util_ps1.py'
+[16.430s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/nippun/ros2_course_test/install/setup.ps1'
+[16.439s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/nippun/ros2_course_test/install/local_setup.sh'
+[16.441s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/nippun/ros2_course_test/install/_local_setup_util_sh.py'
+[16.443s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/nippun/ros2_course_test/install/setup.sh'
+[16.448s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/nippun/ros2_course_test/install/local_setup.bash'
+[16.449s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/nippun/ros2_course_test/install/setup.bash'
+[16.454s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/nippun/ros2_course_test/install/local_setup.zsh'
+[16.455s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/nippun/ros2_course_test/install/setup.zsh'

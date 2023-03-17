@@ -1,0 +1,25 @@
+[1.222s] Invoking command in '/home/nippun/ros2_course_test/src/word_count': PYTHONPATH=/home/nippun/ros2_course_test/build/word_count/prefix_override:/home/nippun/ros2_course_test/install/word_count/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/word_count build --build-base /home/nippun/ros2_course_test/build/word_count/build install --record /home/nippun/ros2_course_test/build/word_count/install.log --single-version-externally-managed
+[1.665s] running egg_info
+[1.666s] writing ../../build/word_count/word_count.egg-info/PKG-INFO
+[1.666s] writing dependency_links to ../../build/word_count/word_count.egg-info/dependency_links.txt
+[1.667s] writing entry points to ../../build/word_count/word_count.egg-info/entry_points.txt
+[1.667s] writing requirements to ../../build/word_count/word_count.egg-info/requires.txt
+[1.667s] writing top-level names to ../../build/word_count/word_count.egg-info/top_level.txt
+[1.670s] reading manifest file '../../build/word_count/word_count.egg-info/SOURCES.txt'
+[1.671s] writing manifest file '../../build/word_count/word_count.egg-info/SOURCES.txt'
+[1.671s] running build
+[1.672s] running build_py
+[1.672s] copying word_count/word_count_server.py -> /home/nippun/ros2_course_test/build/word_count/build/lib/word_count
+[1.672s] running install
+[1.673s] running install_lib
+[1.674s] copying /home/nippun/ros2_course_test/build/word_count/build/lib/word_count/word_count_server.py -> /home/nippun/ros2_course_test/install/word_count/lib/python3.10/site-packages/word_count
+[1.675s] byte-compiling /home/nippun/ros2_course_test/install/word_count/lib/python3.10/site-packages/word_count/word_count_server.py to word_count_server.cpython-310.pyc
+[1.676s] running install_data
+[1.677s] running install_egg_info
+[1.679s] removing '/home/nippun/ros2_course_test/install/word_count/lib/python3.10/site-packages/word_count-0.0.0-py3.10.egg-info' (and everything under it)
+[1.680s] Copying ../../build/word_count/word_count.egg-info to /home/nippun/ros2_course_test/install/word_count/lib/python3.10/site-packages/word_count-0.0.0-py3.10.egg-info
+[1.681s] running install_scripts
+[1.709s] Installing word_count_client script to /home/nippun/ros2_course_test/install/word_count/lib/word_count
+[1.710s] Installing word_count_service script to /home/nippun/ros2_course_test/install/word_count/lib/word_count
+[1.710s] writing list of installed files to '/home/nippun/ros2_course_test/build/word_count/install.log'
+[1.757s] Invoked command in '/home/nippun/ros2_course_test/src/word_count' returned '0': PYTHONPATH=/home/nippun/ros2_course_test/build/word_count/prefix_override:/home/nippun/ros2_course_test/install/word_count/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/word_count build --build-base /home/nippun/ros2_course_test/build/word_count/build install --record /home/nippun/ros2_course_test/build/word_count/install.log --single-version-externally-managed

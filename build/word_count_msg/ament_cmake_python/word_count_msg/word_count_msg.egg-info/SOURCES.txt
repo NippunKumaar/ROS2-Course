@@ -1,0 +1,6 @@
+setup.py
+word_count_msg/__init__.py
+word_count_msg.egg-info/PKG-INFO
+word_count_msg.egg-info/SOURCES.txt
+word_count_msg.egg-info/dependency_links.txt
+word_count_msg.egg-info/top_level.txt

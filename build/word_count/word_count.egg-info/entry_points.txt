@@ -1,0 +1,4 @@
+[console_scripts]
+word_count_client = word_count.word_count_client:main
+word_count_service = word_count.word_count_server:main
+

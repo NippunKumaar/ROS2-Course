@@ -1,0 +1,396 @@
+[0.000000] (-) TimerEvent: {}
+[0.000226] (-) JobUnselected: {'identifier': 'complex_msg'}
+[0.000292] (-) JobUnselected: {'identifier': 'complex_talker_listener'}
+[0.000340] (-) JobUnselected: {'identifier': 'my_first_package'}
+[0.000374] (-) JobUnselected: {'identifier': 'talker_listener'}
+[0.000406] (-) JobUnselected: {'identifier': 'turtlesim_control'}
+[0.000440] (add_two_ints) JobQueued: {'identifier': 'add_two_ints', 'dependencies': OrderedDict()}
+[0.000479] (add_two_ints) JobStarted: {'identifier': 'add_two_ints'}
+[0.098444] (-) TimerEvent: {}
+[0.188897] (add_two_ints) JobProgress: {'identifier': 'add_two_ints', 'progress': 'cmake'}
+[0.189226] (add_two_ints) Command: {'cmd': ['/usr/bin/cmake', '/home/nippun/ros2_course_test/src/add_two_ints', '-DCMAKE_INSTALL_PREFIX=/home/nippun/ros2_course_test/install/add_two_ints'], 'cwd': '/home/nippun/ros2_course_test/build/add_two_ints', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'nippun'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/nippun/ros2_course_test/install/complex_msg/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/home/nippun/usr/lib:/home/nippun/usr/lib/x86_64-linux-gnu:/usr/local/lib:/usr/local/lib64:'), ('HOME', '/home/nippun'), ('OLDPWD', '/home/nippun/ros2_course_test/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '2637'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('STAGEPATH', '/usr/local/lib:/usr/local/lib64:'), ('_colcon_cd_root', '/home/nippun/ros2_course_test/'), ('QT_QPA_PLATFORMTHEME', 'appmenu-qt5'), ('IM_CONFIG_PHASE', '1'), ('PLAYERPATH', '/usr/local/lib:/usr/local/lib64'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/nippun/ros2_course_test/install:/home/nippun/ros2_ws/install:/home/nippun/ros2_course_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'nippun'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/usr/local/lib64/pkgconfig:/usr/local/lib64:/usr/local/include/player-3.0'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'nippun'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/nippun/usr/local/bin:/home/nippun/usr/local/bin:/usr/local/lib64:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/nippun-MacBookPro:@/tmp/.ICE-unix/2496,unix/nippun-MacBookPro:/tmp/.ICE-unix/2496'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/a24cad40_73ca_4fb9_a5cd_ffe5c72ae581'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.0H8N11'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.143'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/nippun/ros2_course_test/install/turtlesim_control:/home/nippun/ros2_course_test/install/talker_listener:/home/nippun/ros2_course_test/install/my_first_package:/home/nippun/ros2_course_test/install/complex_talker_listener:/home/nippun/ros2_course_test/install/complex_msg:/home/nippun/ros2_ws/install/tele_op:/home/nippun/ros2_ws/install/talker_listner:/home/nippun/ros2_ws/install/my_first_package:/home/nippun/ros2_ws/install/example:/home/nippun/ros2_course_ws/install/my_first_package:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/nippun/ros2_course_test/build/add_two_ints'), ('TURTLEBOT3_MODEL', 'waffle'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/nippun/ros2_course_test/install/turtlesim_control/lib/python3.10/site-packages:/home/nippun/ros2_course_test/install/talker_listener/lib/python3.10/site-packages:/home/nippun/ros2_course_test/install/my_first_package/lib/python3.10/site-packages:/home/nippun/ros2_course_test/install/complex_talker_listener/lib/python3.10/site-packages:/home/nippun/ros2_course_test/install/complex_msg/local/lib/python3.10/dist-packages:/home/nippun/ros2_ws/install/tele_op/lib/python3.10/site-packages:/home/nippun/ros2_ws/install/talker_listner/lib/python3.10/site-packages:/home/nippun/ros2_ws/install/my_first_package/lib/python3.10/site-packages:/home/nippun/ros2_ws/install/example/lib/python3.10/site-packages:/home/nippun/ros2_course_ws/install/my_first_package/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('CPATH', '/home/nippun/usr/local/include:'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/nippun/ros2_course_test/install/complex_msg:/home/nippun/ros2_course_test/install/turtlesim_control:/home/nippun/ros2_course_test/install/talker_listener:/home/nippun/ros2_course_test/install/my_first_package:/home/nippun/ros2_course_test/install/complex_talker_listener:/home/nippun/ros2_ws/install/tele_op:/home/nippun/ros2_ws/install/talker_listner:/home/nippun/ros2_ws/install/my_first_package:/home/nippun/ros2_ws/install/example:/home/nippun/ros2_course_ws/install/my_first_package:/opt/ros/humble')]), 'shell': False}
+[0.200498] (-) TimerEvent: {}
+[0.301046] (-) TimerEvent: {}
+[0.401860] (-) TimerEvent: {}
+[0.502723] (-) TimerEvent: {}
+[0.603446] (-) TimerEvent: {}
+[0.704503] (-) TimerEvent: {}
+[0.805496] (-) TimerEvent: {}
+[0.906048] (-) TimerEvent: {}
+[1.007087] (-) TimerEvent: {}
+[1.108216] (-) TimerEvent: {}
+[1.208850] (-) TimerEvent: {}
+[1.309611] (-) TimerEvent: {}
+[1.410620] (-) TimerEvent: {}
+[1.512305] (-) TimerEvent: {}
+[1.525980] (add_two_ints) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.3.0\n'}
+[1.612494] (-) TimerEvent: {}
+[1.713249] (-) TimerEvent: {}
+[1.813925] (-) TimerEvent: {}
+[1.915009] (-) TimerEvent: {}
+[2.016146] (-) TimerEvent: {}
+[2.116847] (-) TimerEvent: {}
+[2.217533] (-) TimerEvent: {}
+[2.318295] (-) TimerEvent: {}
+[2.419409] (-) TimerEvent: {}
+[2.506845] (add_two_ints) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.3.0\n'}
+[2.519623] (-) TimerEvent: {}
+[2.620374] (-) TimerEvent: {}
+[2.666873] (add_two_ints) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[2.720507] (-) TimerEvent: {}
+[2.821017] (-) TimerEvent: {}
+[2.921737] (-) TimerEvent: {}
+[2.928128] (add_two_ints) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[2.940632] (add_two_ints) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[2.941283] (add_two_ints) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[2.974349] (add_two_ints) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[3.013421] (add_two_ints) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[3.021853] (-) TimerEvent: {}
+[3.122207] (-) TimerEvent: {}
+[3.170382] (add_two_ints) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[3.185412] (add_two_ints) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[3.185999] (add_two_ints) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[3.186935] (add_two_ints) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[3.222397] (-) TimerEvent: {}
+[3.287236] (add_two_ints) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.3 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[3.322633] (-) TimerEvent: {}
+[3.424206] (-) TimerEvent: {}
+[3.525005] (-) TimerEvent: {}
+[3.625486] (-) TimerEvent: {}
+[3.725830] (-) TimerEvent: {}
+[3.754653] (add_two_ints) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter \n'}
+[3.826030] (-) TimerEvent: {}
+[3.926736] (-) TimerEvent: {}
+[4.027700] (-) TimerEvent: {}
+[4.128576] (-) TimerEvent: {}
+[4.229296] (-) TimerEvent: {}
+[4.291636] (add_two_ints) StdoutLine: {'line': b'-- Found geometry_msgs: 4.2.3 (/opt/ros/humble/share/geometry_msgs/cmake)\n'}
+[4.329562] (-) TimerEvent: {}
+[4.430560] (-) TimerEvent: {}
+[4.531282] (-) TimerEvent: {}
+[4.632079] (-) TimerEvent: {}
+[4.700955] (add_two_ints) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[4.728752] (add_two_ints) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[4.732187] (-) TimerEvent: {}
+[4.770882] (add_two_ints) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[4.832421] (-) TimerEvent: {}
+[4.915439] (add_two_ints) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[4.932521] (-) TimerEvent: {}
+[4.989509] (add_two_ints) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[5.032644] (-) TimerEvent: {}
+[5.133112] (-) TimerEvent: {}
+[5.233556] (-) TimerEvent: {}
+[5.294369] (add_two_ints) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[5.333724] (-) TimerEvent: {}
+[5.434111] (-) TimerEvent: {}
+[5.534455] (-) TimerEvent: {}
+[5.634809] (-) TimerEvent: {}
+[5.735214] (-) TimerEvent: {}
+[5.835685] (-) TimerEvent: {}
+[5.865955] (add_two_ints) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[5.935910] (-) TimerEvent: {}
+[6.036578] (-) TimerEvent: {}
+[6.136951] (-) TimerEvent: {}
+[6.237344] (-) TimerEvent: {}
+[6.337927] (-) TimerEvent: {}
+[6.438686] (-) TimerEvent: {}
+[6.539027] (-) TimerEvent: {}
+[6.593831] (add_two_ints) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[6.639220] (-) TimerEvent: {}
+[6.739946] (-) TimerEvent: {}
+[6.840889] (-) TimerEvent: {}
+[6.869416] (add_two_ints) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[6.933841] (add_two_ints) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.6", minimum required is "3.6") \n'}
+[6.941131] (-) TimerEvent: {}
+[6.961479] (add_two_ints) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[7.041296] (-) TimerEvent: {}
+[7.137915] (add_two_ints) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.6", minimum required is "3.5") \n'}
+[7.138755] (add_two_ints) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[7.139213] (add_two_ints) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[7.139692] (add_two_ints) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[7.141657] (-) TimerEvent: {}
+[7.181449] (add_two_ints) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[7.241579] (-) TimerEvent: {}
+[7.342183] (-) TimerEvent: {}
+[7.368216] (add_two_ints) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.5 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[7.442465] (-) TimerEvent: {}
+[7.543735] (-) TimerEvent: {}
+[7.641183] (add_two_ints) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[7.643823] (-) TimerEvent: {}
+[7.644482] (add_two_ints) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[7.651763] (add_two_ints) StdoutLine: {'line': b'-- Configuring done\n'}
+[7.704364] (add_two_ints) StdoutLine: {'line': b'-- Generating done\n'}
+[7.708642] (add_two_ints) StdoutLine: {'line': b'-- Build files have been written to: /home/nippun/ros2_course_test/build/add_two_ints\n'}
+[7.722348] (add_two_ints) CommandEnded: {'returncode': 0}
+[7.725856] (add_two_ints) JobProgress: {'identifier': 'add_two_ints', 'progress': 'build'}
+[7.726069] (add_two_ints) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/nippun/ros2_course_test/build/add_two_ints', '--', '-j4', '-l4'], 'cwd': '/home/nippun/ros2_course_test/build/add_two_ints', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'nippun'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/nippun/ros2_course_test/install/complex_msg/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/home/nippun/usr/lib:/home/nippun/usr/lib/x86_64-linux-gnu:/usr/local/lib:/usr/local/lib64:'), ('HOME', '/home/nippun'), ('OLDPWD', '/home/nippun/ros2_course_test/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '2637'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('STAGEPATH', '/usr/local/lib:/usr/local/lib64:'), ('_colcon_cd_root', '/home/nippun/ros2_course_test/'), ('QT_QPA_PLATFORMTHEME', 'appmenu-qt5'), ('IM_CONFIG_PHASE', '1'), ('PLAYERPATH', '/usr/local/lib:/usr/local/lib64'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/nippun/ros2_course_test/install:/home/nippun/ros2_ws/install:/home/nippun/ros2_course_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'nippun'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/usr/local/lib64/pkgconfig:/usr/local/lib64:/usr/local/include/player-3.0'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'nippun'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/nippun/usr/local/bin:/home/nippun/usr/local/bin:/usr/local/lib64:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/nippun-MacBookPro:@/tmp/.ICE-unix/2496,unix/nippun-MacBookPro:/tmp/.ICE-unix/2496'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/a24cad40_73ca_4fb9_a5cd_ffe5c72ae581'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.0H8N11'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.143'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/nippun/ros2_course_test/install/turtlesim_control:/home/nippun/ros2_course_test/install/talker_listener:/home/nippun/ros2_course_test/install/my_first_package:/home/nippun/ros2_course_test/install/complex_talker_listener:/home/nippun/ros2_course_test/install/complex_msg:/home/nippun/ros2_ws/install/tele_op:/home/nippun/ros2_ws/install/talker_listner:/home/nippun/ros2_ws/install/my_first_package:/home/nippun/ros2_ws/install/example:/home/nippun/ros2_course_ws/install/my_first_package:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/nippun/ros2_course_test/build/add_two_ints'), ('TURTLEBOT3_MODEL', 'waffle'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/nippun/ros2_course_test/install/turtlesim_control/lib/python3.10/site-packages:/home/nippun/ros2_course_test/install/talker_listener/lib/python3.10/site-packages:/home/nippun/ros2_course_test/install/my_first_package/lib/python3.10/site-packages:/home/nippun/ros2_course_test/install/complex_talker_listener/lib/python3.10/site-packages:/home/nippun/ros2_course_test/install/complex_msg/local/lib/python3.10/dist-packages:/home/nippun/ros2_ws/install/tele_op/lib/python3.10/site-packages:/home/nippun/ros2_ws/install/talker_listner/lib/python3.10/site-packages:/home/nippun/ros2_ws/install/my_first_package/lib/python3.10/site-packages:/home/nippun/ros2_ws/install/example/lib/python3.10/site-packages:/home/nippun/ros2_course_ws/install/my_first_package/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('CPATH', '/home/nippun/usr/local/include:'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/nippun/ros2_course_test/install/complex_msg:/home/nippun/ros2_course_test/install/turtlesim_control:/home/nippun/ros2_course_test/install/talker_listener:/home/nippun/ros2_course_test/install/my_first_package:/home/nippun/ros2_course_test/install/complex_talker_listener:/home/nippun/ros2_ws/install/tele_op:/home/nippun/ros2_ws/install/talker_listner:/home/nippun/ros2_ws/install/my_first_package:/home/nippun/ros2_ws/install/example:/home/nippun/ros2_course_ws/install/my_first_package:/opt/ros/humble')]), 'shell': False}
+[7.743991] (-) TimerEvent: {}
+[7.784809] (add_two_ints) StdoutLine: {'line': b'[  3%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[7.795571] (add_two_ints) StdoutLine: {'line': b'[  6%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[7.818119] (add_two_ints) StdoutLine: {'line': b'[  6%] Built target ament_cmake_python_copy_add_two_ints\n'}
+[7.844123] (-) TimerEvent: {}
+[7.944516] (-) TimerEvent: {}
+[8.045074] (-) TimerEvent: {}
+[8.145977] (-) TimerEvent: {}
+[8.246508] (-) TimerEvent: {}
+[8.347050] (-) TimerEvent: {}
+[8.442478] (add_two_ints) StdoutLine: {'line': b'[  9%] \x1b[32mBuilding C object CMakeFiles/add_two_ints__rosidl_generator_c.dir/rosidl_generator_c/add_two_ints/srv/detail/add_two_ints__functions.c.o\x1b[0m\n'}
+[8.447167] (-) TimerEvent: {}
+[8.458127] (add_two_ints) StdoutLine: {'line': b'[  9%] Built target add_two_ints__cpp\n'}
+[8.476121] (add_two_ints) StdoutLine: {'line': b'[ 12%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[8.479946] (add_two_ints) StdoutLine: {'line': b'[ 16%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[8.547280] (-) TimerEvent: {}
+[8.647619] (-) TimerEvent: {}
+[8.677470] (add_two_ints) StdoutLine: {'line': b'running egg_info\n'}
+[8.678821] (add_two_ints) StdoutLine: {'line': b'creating add_two_ints.egg-info\n'}
+[8.679458] (add_two_ints) StdoutLine: {'line': b'writing add_two_ints.egg-info/PKG-INFO\n'}
+[8.679899] (add_two_ints) StdoutLine: {'line': b'writing dependency_links to add_two_ints.egg-info/dependency_links.txt\n'}
+[8.680377] (add_two_ints) StdoutLine: {'line': b'writing top-level names to add_two_ints.egg-info/top_level.txt\n'}
+[8.681179] (add_two_ints) StdoutLine: {'line': b"writing manifest file 'add_two_ints.egg-info/SOURCES.txt'\n"}
+[8.735814] (add_two_ints) StdoutLine: {'line': b"reading manifest file 'add_two_ints.egg-info/SOURCES.txt'\n"}
+[8.737853] (add_two_ints) StdoutLine: {'line': b"writing manifest file 'add_two_ints.egg-info/SOURCES.txt'\n"}
+[8.747731] (-) TimerEvent: {}
+[8.804679] (add_two_ints) StdoutLine: {'line': b'[ 16%] Built target ament_cmake_python_build_add_two_ints_egg\n'}
+[8.821465] (add_two_ints) StdoutLine: {'line': b'[ 19%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[8.847849] (-) TimerEvent: {}
+[8.948330] (-) TimerEvent: {}
+[8.968669] (add_two_ints) StdoutLine: {'line': b'[ 22%] \x1b[32mBuilding CXX object CMakeFiles/add_two_ints__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/add_two_ints/srv/add_two_ints__type_support.cpp.o\x1b[0m\n'}
+[9.048433] (-) TimerEvent: {}
+[9.148842] (-) TimerEvent: {}
+[9.249258] (-) TimerEvent: {}
+[9.252485] (add_two_ints) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/add_two_ints__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/add_two_ints/srv/detail/dds_fastrtps/add_two_ints__type_support.cpp.o\x1b[0m\n'}
+[9.349381] (-) TimerEvent: {}
+[9.384584] (add_two_ints) StdoutLine: {'line': b'[ 29%] \x1b[32mBuilding CXX object CMakeFiles/add_two_ints__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/add_two_ints/srv/detail/add_two_ints__type_support.cpp.o\x1b[0m\n'}
+[9.449562] (-) TimerEvent: {}
+[9.549987] (-) TimerEvent: {}
+[9.650543] (-) TimerEvent: {}
+[9.694000] (add_two_ints) StdoutLine: {'line': b'[ 32%] \x1b[32m\x1b[1mLinking C shared library libadd_two_ints__rosidl_generator_c.so\x1b[0m\n'}
+[9.750652] (-) TimerEvent: {}
+[9.802666] (add_two_ints) StdoutLine: {'line': b'[ 32%] Built target add_two_ints__rosidl_generator_c\n'}
+[9.817188] (add_two_ints) StdoutLine: {'line': b'[ 35%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[9.850801] (-) TimerEvent: {}
+[9.951204] (-) TimerEvent: {}
+[10.051580] (-) TimerEvent: {}
+[10.152099] (-) TimerEvent: {}
+[10.252735] (-) TimerEvent: {}
+[10.320374] (add_two_ints) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object CMakeFiles/add_two_ints__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/add_two_ints/srv/detail/add_two_ints__type_support_c.cpp.o\x1b[0m\n'}
+[10.352937] (-) TimerEvent: {}
+[10.453478] (-) TimerEvent: {}
+[10.554253] (-) TimerEvent: {}
+[10.654883] (-) TimerEvent: {}
+[10.755491] (-) TimerEvent: {}
+[10.856163] (-) TimerEvent: {}
+[10.956882] (-) TimerEvent: {}
+[11.057854] (-) TimerEvent: {}
+[11.158303] (-) TimerEvent: {}
+[11.258706] (-) TimerEvent: {}
+[11.359081] (-) TimerEvent: {}
+[11.459547] (-) TimerEvent: {}
+[11.560312] (-) TimerEvent: {}
+[11.596974] (add_two_ints) StdoutLine: {'line': b'[ 41%] \x1b[32m\x1b[1mLinking CXX shared library libadd_two_ints__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[11.660440] (-) TimerEvent: {}
+[11.703400] (add_two_ints) StdoutLine: {'line': b'[ 41%] Built target add_two_ints__rosidl_typesupport_cpp\n'}
+[11.739574] (add_two_ints) StdoutLine: {'line': b'[ 45%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[11.760566] (-) TimerEvent: {}
+[11.861110] (-) TimerEvent: {}
+[11.874799] (add_two_ints) StdoutLine: {'line': b'[ 48%] \x1b[32m\x1b[1mLinking CXX shared library libadd_two_ints__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[11.960475] (add_two_ints) StdoutLine: {'line': b'[ 48%] Built target add_two_ints__rosidl_typesupport_introspection_cpp\n'}
+[11.961197] (-) TimerEvent: {}
+[11.973018] (add_two_ints) StdoutLine: {'line': b'[ 51%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[12.061368] (-) TimerEvent: {}
+[12.161830] (-) TimerEvent: {}
+[12.182918] (add_two_ints) StdoutLine: {'line': b'[ 54%] \x1b[32m\x1b[1mLinking CXX shared library libadd_two_ints__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[12.183705] (add_two_ints) StdoutLine: {'line': b'[ 58%] \x1b[32m\x1b[1mLinking CXX shared library libadd_two_ints__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[12.262453] (-) TimerEvent: {}
+[12.362627] (add_two_ints) StdoutLine: {'line': b'[ 58%] Built target add_two_ints__rosidl_typesupport_fastrtps_cpp\n'}
+[12.364608] (-) TimerEvent: {}
+[12.369150] (add_two_ints) StdoutLine: {'line': b'[ 58%] Built target add_two_ints__rosidl_typesupport_fastrtps_c\n'}
+[12.457274] (add_two_ints) StdoutLine: {'line': b'[ 61%] \x1b[32mBuilding C object CMakeFiles/add_two_ints__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/add_two_ints/srv/detail/add_two_ints__type_support.c.o\x1b[0m\n'}
+[12.464741] (-) TimerEvent: {}
+[12.507332] (add_two_ints) StdoutLine: {'line': b'[ 64%] \x1b[32m\x1b[1mLinking C shared library libadd_two_ints__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[12.545166] (add_two_ints) StdoutLine: {'line': b'[ 64%] Built target add_two_ints__rosidl_typesupport_introspection_c\n'}
+[12.564871] (-) TimerEvent: {}
+[12.581203] (add_two_ints) StdoutLine: {'line': b'[ 67%] \x1b[32mBuilding CXX object CMakeFiles/add_two_ints__rosidl_typesupport_c.dir/rosidl_typesupport_c/add_two_ints/srv/add_two_ints__type_support.cpp.o\x1b[0m\n'}
+[12.620669] (add_two_ints) StdoutLine: {'line': b'[ 70%] \x1b[32m\x1b[1mLinking CXX shared library libadd_two_ints__rosidl_typesupport_c.so\x1b[0m\n'}
+[12.665089] (-) TimerEvent: {}
+[12.672737] (add_two_ints) StdoutLine: {'line': b'[ 70%] Built target add_two_ints__rosidl_typesupport_c\n'}
+[12.696759] (add_two_ints) StdoutLine: {'line': b'[ 70%] Built target add_two_ints\n'}
+[12.722006] (add_two_ints) StdoutLine: {'line': b'[ 74%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[12.765201] (-) TimerEvent: {}
+[12.865614] (-) TimerEvent: {}
+[12.965998] (-) TimerEvent: {}
+[13.066362] (-) TimerEvent: {}
+[13.166720] (-) TimerEvent: {}
+[13.267123] (-) TimerEvent: {}
+[13.272500] (add_two_ints) StdoutLine: {'line': b'[ 74%] Built target add_two_ints__py\n'}
+[13.297618] (add_two_ints) StdoutLine: {'line': b'[ 77%] \x1b[32mBuilding C object CMakeFiles/add_two_ints__rosidl_generator_py.dir/rosidl_generator_py/add_two_ints/srv/_add_two_ints_s.c.o\x1b[0m\n'}
+[13.367358] (-) TimerEvent: {}
+[13.468104] (-) TimerEvent: {}
+[13.568628] (-) TimerEvent: {}
+[13.669137] (-) TimerEvent: {}
+[13.770206] (-) TimerEvent: {}
+[13.871229] (-) TimerEvent: {}
+[13.954537] (add_two_ints) StdoutLine: {'line': b'[ 80%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/add_two_ints/libadd_two_ints__rosidl_generator_py.so\x1b[0m\n'}
+[13.971332] (-) TimerEvent: {}
+[14.006315] (add_two_ints) StdoutLine: {'line': b'[ 80%] Built target add_two_ints__rosidl_generator_py\n'}
+[14.040906] (add_two_ints) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding C object CMakeFiles/add_two_ints__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/add_two_ints/_add_two_ints_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[14.041247] (add_two_ints) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding C object CMakeFiles/add_two_ints__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/add_two_ints/_add_two_ints_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[14.042503] (add_two_ints) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding C object CMakeFiles/add_two_ints__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/add_two_ints/_add_two_ints_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[14.071472] (-) TimerEvent: {}
+[14.172109] (-) TimerEvent: {}
+[14.192546] (add_two_ints) StdoutLine: {'line': b'[ 93%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/add_two_ints/add_two_ints_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[14.238196] (add_two_ints) StdoutLine: {'line': b'[ 93%] Built target add_two_ints__rosidl_typesupport_c__pyext\n'}
+[14.262191] (add_two_ints) StdoutLine: {'line': b'[ 96%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/add_two_ints/add_two_ints_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[14.262667] (add_two_ints) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/add_two_ints/add_two_ints_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[14.272234] (-) TimerEvent: {}
+[14.323856] (add_two_ints) StdoutLine: {'line': b'[100%] Built target add_two_ints__rosidl_typesupport_introspection_c__pyext\n'}
+[14.334771] (add_two_ints) StdoutLine: {'line': b'[100%] Built target add_two_ints__rosidl_typesupport_fastrtps_c__pyext\n'}
+[14.356142] (add_two_ints) CommandEnded: {'returncode': 0}
+[14.372362] (-) TimerEvent: {}
+[14.472780] (-) TimerEvent: {}
+[14.479920] (add_two_ints) JobProgress: {'identifier': 'add_two_ints', 'progress': 'install'}
+[14.496108] (add_two_ints) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/nippun/ros2_course_test/build/add_two_ints'], 'cwd': '/home/nippun/ros2_course_test/build/add_two_ints', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'nippun'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/nippun/ros2_course_test/install/complex_msg/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/home/nippun/usr/lib:/home/nippun/usr/lib/x86_64-linux-gnu:/usr/local/lib:/usr/local/lib64:'), ('HOME', '/home/nippun'), ('OLDPWD', '/home/nippun/ros2_course_test/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '2637'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('STAGEPATH', '/usr/local/lib:/usr/local/lib64:'), ('_colcon_cd_root', '/home/nippun/ros2_course_test/'), ('QT_QPA_PLATFORMTHEME', 'appmenu-qt5'), ('IM_CONFIG_PHASE', '1'), ('PLAYERPATH', '/usr/local/lib:/usr/local/lib64'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/nippun/ros2_course_test/install:/home/nippun/ros2_ws/install:/home/nippun/ros2_course_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'nippun'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/usr/local/lib64/pkgconfig:/usr/local/lib64:/usr/local/include/player-3.0'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'nippun'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/nippun/usr/local/bin:/home/nippun/usr/local/bin:/usr/local/lib64:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/nippun-MacBookPro:@/tmp/.ICE-unix/2496,unix/nippun-MacBookPro:/tmp/.ICE-unix/2496'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/a24cad40_73ca_4fb9_a5cd_ffe5c72ae581'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.0H8N11'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.143'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/nippun/ros2_course_test/install/turtlesim_control:/home/nippun/ros2_course_test/install/talker_listener:/home/nippun/ros2_course_test/install/my_first_package:/home/nippun/ros2_course_test/install/complex_talker_listener:/home/nippun/ros2_course_test/install/complex_msg:/home/nippun/ros2_ws/install/tele_op:/home/nippun/ros2_ws/install/talker_listner:/home/nippun/ros2_ws/install/my_first_package:/home/nippun/ros2_ws/install/example:/home/nippun/ros2_course_ws/install/my_first_package:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/nippun/ros2_course_test/build/add_two_ints'), ('TURTLEBOT3_MODEL', 'waffle'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/nippun/ros2_course_test/install/turtlesim_control/lib/python3.10/site-packages:/home/nippun/ros2_course_test/install/talker_listener/lib/python3.10/site-packages:/home/nippun/ros2_course_test/install/my_first_package/lib/python3.10/site-packages:/home/nippun/ros2_course_test/install/complex_talker_listener/lib/python3.10/site-packages:/home/nippun/ros2_course_test/install/complex_msg/local/lib/python3.10/dist-packages:/home/nippun/ros2_ws/install/tele_op/lib/python3.10/site-packages:/home/nippun/ros2_ws/install/talker_listner/lib/python3.10/site-packages:/home/nippun/ros2_ws/install/my_first_package/lib/python3.10/site-packages:/home/nippun/ros2_ws/install/example/lib/python3.10/site-packages:/home/nippun/ros2_course_ws/install/my_first_package/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('CPATH', '/home/nippun/usr/local/include:'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/nippun/ros2_course_test/install/complex_msg:/home/nippun/ros2_course_test/install/turtlesim_control:/home/nippun/ros2_course_test/install/talker_listener:/home/nippun/ros2_course_test/install/my_first_package:/home/nippun/ros2_course_test/install/complex_talker_listener:/home/nippun/ros2_ws/install/tele_op:/home/nippun/ros2_ws/install/talker_listner:/home/nippun/ros2_ws/install/my_first_package:/home/nippun/ros2_ws/install/example:/home/nippun/ros2_course_ws/install/my_first_package:/opt/ros/humble')]), 'shell': False}
+[14.507651] (add_two_ints) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[14.508624] (add_two_ints) StdoutLine: {'line': b'-- Installing: /home/nippun/ros2_course_test/install/add_two_ints/share/ament_index/resource_index/rosidl_interfaces/add_two_ints\n'}
+[14.509206] (add_two_ints) StdoutLine: {'line': b'-- Installing: /home/nippun/ros2_course_test/install/add_two_ints/include/add_two_ints/add_two_ints\n'}
+[14.509719] (add_two_ints) StdoutLine: {'line': b'-- Installing: /home/nippun/ros2_course_test/install/add_two_ints/include/add_two_ints/add_two_ints/msg\n'}
+[14.510109] (add_two_ints) StdoutLine: {'line': b'-- Installing: /home/nippun/ros2_course_test/install/add_two_ints/include/add_two_ints/add_two_ints/msg/rosidl_generator_c__visibility_control.h\n'}
+[14.510338] (add_two_ints) StdoutLine: {'line': b'-- Installing: /home/nippun/ros2_course_test/install/add_two_ints/include/add_two_ints/add_two_ints/srv\n'}
+[14.510533] (add_two_ints) StdoutLine: {'line': b'-- Installing: /home/nippun/ros2_course_test/install/add_two_ints/include/add_two_ints/add_two_ints/srv/add_two_ints.h\n'}
+[14.510746] (add_two_ints) StdoutLine: {'line': b'-- Installing: /home/nippun/ros2_course_test/install/add_two_ints/include/add_two_ints/add_two_ints/srv/detail\n'}
+[14.510929] (add_two_ints) StdoutLine: {'line': b'-- Installing: /home/nippun/ros2_course_test/install/add_two_ints/include/add_two_ints/add_two_ints/srv/detail/add_two_ints__struct.h\n'}
+[14.511105] (add_two_ints) StdoutLine: {'line': b'-- Installing: /home/nippun/ros2_course_test/install/add_two_ints/include/add_two_ints/add_two_ints/srv/detail/add_two_ints__type_support.h\n'}
+[14.511457] (add_two_ints) StdoutLine: {'line': b'-- Installing: /home/nippun/ros2_course_test/install/add_two_ints/include/add_two_ints/add_two_ints/srv/detail/add_two_ints__functions.h\n'}
+[14.511775] (add_two_ints) StdoutLine: {'line': b'-- Installing: /home/nippun/ros2_course_test/install/add_two_ints/include/add_two_ints/add_two_ints/srv/detail/add_two_ints__functions.c\n'}
+[14.512136] (add_two_ints) StdoutLine: {'line': b'-- Installing: /home/nippun/ros2_course_test/install/add_two_ints/share/add_two_ints/environment/library_path.sh\n'}
+[14.512619] (add_two_ints) StdoutLine: {'line': b'-- Installing: /home/nippun/ros2_course_test/install/add_two_ints/share/add_two_ints/environment/library_path.dsv\n'}
+[14.512981] (add_two_ints) StdoutLine: {'line': b'-- Installing: /home/nippun/ros2_course_test/install/add_two_ints/lib/libadd_two_ints__rosidl_generator_c.so\n'}
+[14.513284] (add_two_ints) StdoutLine: {'line': b'-- Set runtime path of "/home/nippun/ros2_course_test/install/add_two_ints/lib/libadd_two_ints__rosidl_generator_c.so" to ""\n'}
+[14.513601] (add_two_ints) StdoutLine: {'line': b'-- Up-to-date: /home/nippun/ros2_course_test/install/add_two_ints/include/add_two_ints/add_two_ints\n'}
+[14.514010] (add_two_ints) StdoutLine: {'line': b'-- Up-to-date: /home/nippun/ros2_course_test/install/add_two_ints/include/add_two_ints/add_two_ints/msg\n'}
+[14.514447] (add_two_ints) StdoutLine: {'line': b'-- Installing: /home/nippun/ros2_course_test/install/add_two_ints/include/add_two_ints/add_two_ints/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[14.514838] (add_two_ints) StdoutLine: {'line': b'-- Up-to-date: /home/nippun/ros2_course_test/install/add_two_ints/include/add_two_ints/add_two_ints/srv\n'}
+[14.515305] (add_two_ints) StdoutLine: {'line': b'-- Up-to-date: /home/nippun/ros2_course_test/install/add_two_ints/include/add_two_ints/add_two_ints/srv/detail\n'}
+[14.516252] (add_two_ints) StdoutLine: {'line': b'-- Installing: /home/nippun/ros2_course_test/install/add_two_ints/include/add_two_ints/add_two_ints/srv/detail/add_two_ints__rosidl_typesupport_fastrtps_c.h\n'}
+[14.516729] (add_two_ints) StdoutLine: {'line': b'-- Installing: /home/nippun/ros2_course_test/install/add_two_ints/lib/libadd_two_ints__rosidl_typesupport_fastrtps_c.so\n'}
+[14.517231] (add_two_ints) StdoutLine: {'line': b'-- Set runtime path of "/home/nippun/ros2_course_test/install/add_two_ints/lib/libadd_two_ints__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[14.517653] (add_two_ints) StdoutLine: {'line': b'-- Up-to-date: /home/nippun/ros2_course_test/install/add_two_ints/include/add_two_ints/add_two_ints\n'}
+[14.518049] (add_two_ints) StdoutLine: {'line': b'-- Up-to-date: /home/nippun/ros2_course_test/install/add_two_ints/include/add_two_ints/add_two_ints/srv\n'}
+[14.518483] (add_two_ints) StdoutLine: {'line': b'-- Up-to-date: /home/nippun/ros2_course_test/install/add_two_ints/include/add_two_ints/add_two_ints/srv/detail\n'}
+[14.518815] (add_two_ints) StdoutLine: {'line': b'-- Installing: /home/nippun/ros2_course_test/install/add_two_ints/include/add_two_ints/add_two_ints/srv/detail/add_two_ints__struct.hpp\n'}
+[14.519378] (add_two_ints) StdoutLine: {'line': b'-- Installing: /home/nippun/ros2_course_test/install/add_two_ints/include/add_two_ints/add_two_ints/srv/detail/add_two_ints__traits.hpp\n'}
+[14.519756] (add_two_ints) StdoutLine: {'line': b'-- Installing: /home/nippun/ros2_course_test/install/add_two_ints/include/add_two_ints/add_two_ints/srv/detail/add_two_ints__builder.hpp\n'}
+[14.520123] (add_two_ints) StdoutLine: {'line': b'-- Installing: /home/nippun/ros2_course_test/install/add_two_ints/include/add_two_ints/add_two_ints/srv/add_two_ints.hpp\n'}
+[14.520478] (add_two_ints) StdoutLine: {'line': b'-- Up-to-date: /home/nippun/ros2_course_test/install/add_two_ints/include/add_two_ints/add_two_ints\n'}
+[14.520830] (add_two_ints) StdoutLine: {'line': b'-- Up-to-date: /home/nippun/ros2_course_test/install/add_two_ints/include/add_two_ints/add_two_ints/msg\n'}
+[14.521181] (add_two_ints) StdoutLine: {'line': b'-- Installing: /home/nippun/ros2_course_test/install/add_two_ints/include/add_two_ints/add_two_ints/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[14.521619] (add_two_ints) StdoutLine: {'line': b'-- Up-to-date: /home/nippun/ros2_course_test/install/add_two_ints/include/add_two_ints/add_two_ints/srv\n'}
+[14.522012] (add_two_ints) StdoutLine: {'line': b'-- Up-to-date: /home/nippun/ros2_course_test/install/add_two_ints/include/add_two_ints/add_two_ints/srv/detail\n'}
+[14.522434] (add_two_ints) StdoutLine: {'line': b'-- Installing: /home/nippun/ros2_course_test/install/add_two_ints/include/add_two_ints/add_two_ints/srv/detail/add_two_ints__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[14.522837] (add_two_ints) StdoutLine: {'line': b'-- Installing: /home/nippun/ros2_course_test/install/add_two_ints/include/add_two_ints/add_two_ints/srv/detail/dds_fastrtps\n'}
+[14.523259] (add_two_ints) StdoutLine: {'line': b'-- Installing: /home/nippun/ros2_course_test/install/add_two_ints/lib/libadd_two_ints__rosidl_typesupport_fastrtps_cpp.so\n'}
+[14.523655] (add_two_ints) StdoutLine: {'line': b'-- Set runtime path of "/home/nippun/ros2_course_test/install/add_two_ints/lib/libadd_two_ints__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[14.524073] (add_two_ints) StdoutLine: {'line': b'-- Up-to-date: /home/nippun/ros2_course_test/install/add_two_ints/include/add_two_ints/add_two_ints\n'}
+[14.524458] (add_two_ints) StdoutLine: {'line': b'-- Up-to-date: /home/nippun/ros2_course_test/install/add_two_ints/include/add_two_ints/add_two_ints/msg\n'}
+[14.524813] (add_two_ints) StdoutLine: {'line': b'-- Installing: /home/nippun/ros2_course_test/install/add_two_ints/include/add_two_ints/add_two_ints/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[14.525156] (add_two_ints) StdoutLine: {'line': b'-- Up-to-date: /home/nippun/ros2_course_test/install/add_two_ints/include/add_two_ints/add_two_ints/srv\n'}
+[14.525475] (add_two_ints) StdoutLine: {'line': b'-- Up-to-date: /home/nippun/ros2_course_test/install/add_two_ints/include/add_two_ints/add_two_ints/srv/detail\n'}
+[14.525794] (add_two_ints) StdoutLine: {'line': b'-- Installing: /home/nippun/ros2_course_test/install/add_two_ints/include/add_two_ints/add_two_ints/srv/detail/add_two_ints__type_support.c\n'}
+[14.526086] (add_two_ints) StdoutLine: {'line': b'-- Installing: /home/nippun/ros2_course_test/install/add_two_ints/include/add_two_ints/add_two_ints/srv/detail/add_two_ints__rosidl_typesupport_introspection_c.h\n'}
+[14.526378] (add_two_ints) StdoutLine: {'line': b'-- Installing: /home/nippun/ros2_course_test/install/add_two_ints/lib/libadd_two_ints__rosidl_typesupport_introspection_c.so\n'}
+[14.526667] (add_two_ints) StdoutLine: {'line': b'-- Set runtime path of "/home/nippun/ros2_course_test/install/add_two_ints/lib/libadd_two_ints__rosidl_typesupport_introspection_c.so" to ""\n'}
+[14.526961] (add_two_ints) StdoutLine: {'line': b'-- Installing: /home/nippun/ros2_course_test/install/add_two_ints/lib/libadd_two_ints__rosidl_typesupport_c.so\n'}
+[14.527250] (add_two_ints) StdoutLine: {'line': b'-- Set runtime path of "/home/nippun/ros2_course_test/install/add_two_ints/lib/libadd_two_ints__rosidl_typesupport_c.so" to ""\n'}
+[14.527540] (add_two_ints) StdoutLine: {'line': b'-- Up-to-date: /home/nippun/ros2_course_test/install/add_two_ints/include/add_two_ints/add_two_ints\n'}
+[14.527827] (add_two_ints) StdoutLine: {'line': b'-- Up-to-date: /home/nippun/ros2_course_test/install/add_two_ints/include/add_two_ints/add_two_ints/srv\n'}
+[14.528119] (add_two_ints) StdoutLine: {'line': b'-- Up-to-date: /home/nippun/ros2_course_test/install/add_two_ints/include/add_two_ints/add_two_ints/srv/detail\n'}
+[14.528410] (add_two_ints) StdoutLine: {'line': b'-- Installing: /home/nippun/ros2_course_test/install/add_two_ints/include/add_two_ints/add_two_ints/srv/detail/add_two_ints__rosidl_typesupport_introspection_cpp.hpp\n'}
+[14.528700] (add_two_ints) StdoutLine: {'line': b'-- Installing: /home/nippun/ros2_course_test/install/add_two_ints/include/add_two_ints/add_two_ints/srv/detail/add_two_ints__type_support.cpp\n'}
+[14.528987] (add_two_ints) StdoutLine: {'line': b'-- Installing: /home/nippun/ros2_course_test/install/add_two_ints/lib/libadd_two_ints__rosidl_typesupport_introspection_cpp.so\n'}
+[14.529306] (add_two_ints) StdoutLine: {'line': b'-- Set runtime path of "/home/nippun/ros2_course_test/install/add_two_ints/lib/libadd_two_ints__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[14.529648] (add_two_ints) StdoutLine: {'line': b'-- Installing: /home/nippun/ros2_course_test/install/add_two_ints/lib/libadd_two_ints__rosidl_typesupport_cpp.so\n'}
+[14.529967] (add_two_ints) StdoutLine: {'line': b'-- Set runtime path of "/home/nippun/ros2_course_test/install/add_two_ints/lib/libadd_two_ints__rosidl_typesupport_cpp.so" to ""\n'}
+[14.530273] (add_two_ints) StdoutLine: {'line': b'-- Installing: /home/nippun/ros2_course_test/install/add_two_ints/share/add_two_ints/environment/pythonpath.sh\n'}
+[14.530581] (add_two_ints) StdoutLine: {'line': b'-- Installing: /home/nippun/ros2_course_test/install/add_two_ints/share/add_two_ints/environment/pythonpath.dsv\n'}
+[14.530877] (add_two_ints) StdoutLine: {'line': b'-- Installing: /home/nippun/ros2_course_test/install/add_two_ints/local/lib/python3.10/dist-packages/add_two_ints-0.0.0-py3.10.egg-info\n'}
+[14.531182] (add_two_ints) StdoutLine: {'line': b'-- Installing: /home/nippun/ros2_course_test/install/add_two_ints/local/lib/python3.10/dist-packages/add_two_ints-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[14.531485] (add_two_ints) StdoutLine: {'line': b'-- Installing: /home/nippun/ros2_course_test/install/add_two_ints/local/lib/python3.10/dist-packages/add_two_ints-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[14.531833] (add_two_ints) StdoutLine: {'line': b'-- Installing: /home/nippun/ros2_course_test/install/add_two_ints/local/lib/python3.10/dist-packages/add_two_ints-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[14.532177] (add_two_ints) StdoutLine: {'line': b'-- Installing: /home/nippun/ros2_course_test/install/add_two_ints/local/lib/python3.10/dist-packages/add_two_ints-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[14.532527] (add_two_ints) StdoutLine: {'line': b'-- Installing: /home/nippun/ros2_course_test/install/add_two_ints/local/lib/python3.10/dist-packages/add_two_ints\n'}
+[14.532871] (add_two_ints) StdoutLine: {'line': b'-- Installing: /home/nippun/ros2_course_test/install/add_two_ints/local/lib/python3.10/dist-packages/add_two_ints/_add_two_ints_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[14.533211] (add_two_ints) StdoutLine: {'line': b'-- Installing: /home/nippun/ros2_course_test/install/add_two_ints/local/lib/python3.10/dist-packages/add_two_ints/add_two_ints_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[14.533573] (add_two_ints) StdoutLine: {'line': b'-- Installing: /home/nippun/ros2_course_test/install/add_two_ints/local/lib/python3.10/dist-packages/add_two_ints/__init__.py\n'}
+[14.533952] (add_two_ints) StdoutLine: {'line': b'-- Installing: /home/nippun/ros2_course_test/install/add_two_ints/local/lib/python3.10/dist-packages/add_two_ints/libadd_two_ints__rosidl_generator_py.so\n'}
+[14.534295] (add_two_ints) StdoutLine: {'line': b'-- Installing: /home/nippun/ros2_course_test/install/add_two_ints/local/lib/python3.10/dist-packages/add_two_ints/add_two_ints_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[14.534638] (add_two_ints) StdoutLine: {'line': b'-- Installing: /home/nippun/ros2_course_test/install/add_two_ints/local/lib/python3.10/dist-packages/add_two_ints/_add_two_ints_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[14.534978] (add_two_ints) StdoutLine: {'line': b'-- Installing: /home/nippun/ros2_course_test/install/add_two_ints/local/lib/python3.10/dist-packages/add_two_ints/_add_two_ints_s.ep.rosidl_typesupport_c.c\n'}
+[14.535318] (add_two_ints) StdoutLine: {'line': b'-- Installing: /home/nippun/ros2_course_test/install/add_two_ints/local/lib/python3.10/dist-packages/add_two_ints/srv\n'}
+[14.535652] (add_two_ints) StdoutLine: {'line': b'-- Installing: /home/nippun/ros2_course_test/install/add_two_ints/local/lib/python3.10/dist-packages/add_two_ints/srv/__init__.py\n'}
+[14.535994] (add_two_ints) StdoutLine: {'line': b'-- Installing: /home/nippun/ros2_course_test/install/add_two_ints/local/lib/python3.10/dist-packages/add_two_ints/srv/_add_two_ints_s.c\n'}
+[14.536333] (add_two_ints) StdoutLine: {'line': b'-- Installing: /home/nippun/ros2_course_test/install/add_two_ints/local/lib/python3.10/dist-packages/add_two_ints/srv/_add_two_ints.py\n'}
+[14.536677] (add_two_ints) StdoutLine: {'line': b'-- Installing: /home/nippun/ros2_course_test/install/add_two_ints/local/lib/python3.10/dist-packages/add_two_ints/add_two_ints_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[14.572969] (-) TimerEvent: {}
+[14.615401] (add_two_ints) StdoutLine: {'line': b"Listing '/home/nippun/ros2_course_test/install/add_two_ints/local/lib/python3.10/dist-packages/add_two_ints'...\n"}
+[14.615750] (add_two_ints) StdoutLine: {'line': b"Compiling '/home/nippun/ros2_course_test/install/add_two_ints/local/lib/python3.10/dist-packages/add_two_ints/__init__.py'...\n"}
+[14.615945] (add_two_ints) StdoutLine: {'line': b"Listing '/home/nippun/ros2_course_test/install/add_two_ints/local/lib/python3.10/dist-packages/add_two_ints/srv'...\n"}
+[14.616129] (add_two_ints) StdoutLine: {'line': b"Compiling '/home/nippun/ros2_course_test/install/add_two_ints/local/lib/python3.10/dist-packages/add_two_ints/srv/__init__.py'...\n"}
+[14.616310] (add_two_ints) StdoutLine: {'line': b"Compiling '/home/nippun/ros2_course_test/install/add_two_ints/local/lib/python3.10/dist-packages/add_two_ints/srv/_add_two_ints.py'...\n"}
+[14.622464] (add_two_ints) StdoutLine: {'line': b'-- Installing: /home/nippun/ros2_course_test/install/add_two_ints/local/lib/python3.10/dist-packages/add_two_ints/add_two_ints_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[14.623016] (add_two_ints) StdoutLine: {'line': b'-- Set runtime path of "/home/nippun/ros2_course_test/install/add_two_ints/local/lib/python3.10/dist-packages/add_two_ints/add_two_ints_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[14.623383] (add_two_ints) StdoutLine: {'line': b'-- Installing: /home/nippun/ros2_course_test/install/add_two_ints/local/lib/python3.10/dist-packages/add_two_ints/add_two_ints_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[14.623944] (add_two_ints) StdoutLine: {'line': b'-- Set runtime path of "/home/nippun/ros2_course_test/install/add_two_ints/local/lib/python3.10/dist-packages/add_two_ints/add_two_ints_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[14.624271] (add_two_ints) StdoutLine: {'line': b'-- Installing: /home/nippun/ros2_course_test/install/add_two_ints/local/lib/python3.10/dist-packages/add_two_ints/add_two_ints_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[14.624847] (add_two_ints) StdoutLine: {'line': b'-- Set runtime path of "/home/nippun/ros2_course_test/install/add_two_ints/local/lib/python3.10/dist-packages/add_two_ints/add_two_ints_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[14.625144] (add_two_ints) StdoutLine: {'line': b'-- Installing: /home/nippun/ros2_course_test/install/add_two_ints/lib/libadd_two_ints__rosidl_generator_py.so\n'}
+[14.625626] (add_two_ints) StdoutLine: {'line': b'-- Set runtime path of "/home/nippun/ros2_course_test/install/add_two_ints/lib/libadd_two_ints__rosidl_generator_py.so" to ""\n'}
+[14.625957] (add_two_ints) StdoutLine: {'line': b'-- Installing: /home/nippun/ros2_course_test/install/add_two_ints/share/add_two_ints/srv/AddTwoInts.idl\n'}
+[14.626258] (add_two_ints) StdoutLine: {'line': b'-- Installing: /home/nippun/ros2_course_test/install/add_two_ints/share/add_two_ints/srv/AddTwoInts.srv\n'}
+[14.626540] (add_two_ints) StdoutLine: {'line': b'-- Installing: /home/nippun/ros2_course_test/install/add_two_ints/share/add_two_ints/srv/AddTwoInts_Request.msg\n'}
+[14.626823] (add_two_ints) StdoutLine: {'line': b'-- Installing: /home/nippun/ros2_course_test/install/add_two_ints/share/add_two_ints/srv/AddTwoInts_Response.msg\n'}
+[14.627113] (add_two_ints) StdoutLine: {'line': b'-- Installing: /home/nippun/ros2_course_test/install/add_two_ints/share/ament_index/resource_index/package_run_dependencies/add_two_ints\n'}
+[14.627397] (add_two_ints) StdoutLine: {'line': b'-- Installing: /home/nippun/ros2_course_test/install/add_two_ints/share/ament_index/resource_index/parent_prefix_path/add_two_ints\n'}
+[14.627733] (add_two_ints) StdoutLine: {'line': b'-- Installing: /home/nippun/ros2_course_test/install/add_two_ints/share/add_two_ints/environment/ament_prefix_path.sh\n'}
+[14.628001] (add_two_ints) StdoutLine: {'line': b'-- Installing: /home/nippun/ros2_course_test/install/add_two_ints/share/add_two_ints/environment/ament_prefix_path.dsv\n'}
+[14.636909] (add_two_ints) StdoutLine: {'line': b'-- Installing: /home/nippun/ros2_course_test/install/add_two_ints/share/add_two_ints/environment/path.sh\n'}
+[14.639710] (add_two_ints) StdoutLine: {'line': b'-- Installing: /home/nippun/ros2_course_test/install/add_two_ints/share/add_two_ints/environment/path.dsv\n'}
+[14.640063] (add_two_ints) StdoutLine: {'line': b'-- Installing: /home/nippun/ros2_course_test/install/add_two_ints/share/add_two_ints/local_setup.bash\n'}
+[14.640343] (add_two_ints) StdoutLine: {'line': b'-- Installing: /home/nippun/ros2_course_test/install/add_two_ints/share/add_two_ints/local_setup.sh\n'}
+[14.640616] (add_two_ints) StdoutLine: {'line': b'-- Installing: /home/nippun/ros2_course_test/install/add_two_ints/share/add_two_ints/local_setup.zsh\n'}
+[14.640877] (add_two_ints) StdoutLine: {'line': b'-- Installing: /home/nippun/ros2_course_test/install/add_two_ints/share/add_two_ints/local_setup.dsv\n'}
+[14.641146] (add_two_ints) StdoutLine: {'line': b'-- Installing: /home/nippun/ros2_course_test/install/add_two_ints/share/add_two_ints/package.dsv\n'}
+[14.641497] (add_two_ints) StdoutLine: {'line': b'-- Installing: /home/nippun/ros2_course_test/install/add_two_ints/share/ament_index/resource_index/packages/add_two_ints\n'}
+[14.641806] (add_two_ints) StdoutLine: {'line': b'-- Installing: /home/nippun/ros2_course_test/install/add_two_ints/share/add_two_ints/cmake/export_add_two_ints__rosidl_generator_cExport.cmake\n'}
+[14.642079] (add_two_ints) StdoutLine: {'line': b'-- Installing: /home/nippun/ros2_course_test/install/add_two_ints/share/add_two_ints/cmake/export_add_two_ints__rosidl_generator_cExport-noconfig.cmake\n'}
+[14.642351] (add_two_ints) StdoutLine: {'line': b'-- Installing: /home/nippun/ros2_course_test/install/add_two_ints/share/add_two_ints/cmake/export_add_two_ints__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[14.642651] (add_two_ints) StdoutLine: {'line': b'-- Installing: /home/nippun/ros2_course_test/install/add_two_ints/share/add_two_ints/cmake/export_add_two_ints__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[14.642919] (add_two_ints) StdoutLine: {'line': b'-- Installing: /home/nippun/ros2_course_test/install/add_two_ints/share/add_two_ints/cmake/export_add_two_ints__rosidl_generator_cppExport.cmake\n'}
+[14.643179] (add_two_ints) StdoutLine: {'line': b'-- Installing: /home/nippun/ros2_course_test/install/add_two_ints/share/add_two_ints/cmake/export_add_two_ints__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[14.643428] (add_two_ints) StdoutLine: {'line': b'-- Installing: /home/nippun/ros2_course_test/install/add_two_ints/share/add_two_ints/cmake/export_add_two_ints__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[14.643724] (add_two_ints) StdoutLine: {'line': b'-- Installing: /home/nippun/ros2_course_test/install/add_two_ints/share/add_two_ints/cmake/add_two_ints__rosidl_typesupport_introspection_cExport.cmake\n'}
+[14.643978] (add_two_ints) StdoutLine: {'line': b'-- Installing: /home/nippun/ros2_course_test/install/add_two_ints/share/add_two_ints/cmake/add_two_ints__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[14.644237] (add_two_ints) StdoutLine: {'line': b'-- Installing: /home/nippun/ros2_course_test/install/add_two_ints/share/add_two_ints/cmake/add_two_ints__rosidl_typesupport_cExport.cmake\n'}
+[14.644492] (add_two_ints) StdoutLine: {'line': b'-- Installing: /home/nippun/ros2_course_test/install/add_two_ints/share/add_two_ints/cmake/add_two_ints__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[14.644793] (add_two_ints) StdoutLine: {'line': b'-- Installing: /home/nippun/ros2_course_test/install/add_two_ints/share/add_two_ints/cmake/add_two_ints__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[14.645050] (add_two_ints) StdoutLine: {'line': b'-- Installing: /home/nippun/ros2_course_test/install/add_two_ints/share/add_two_ints/cmake/add_two_ints__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[14.645296] (add_two_ints) StdoutLine: {'line': b'-- Installing: /home/nippun/ros2_course_test/install/add_two_ints/share/add_two_ints/cmake/add_two_ints__rosidl_typesupport_cppExport.cmake\n'}
+[14.645615] (add_two_ints) StdoutLine: {'line': b'-- Installing: /home/nippun/ros2_course_test/install/add_two_ints/share/add_two_ints/cmake/add_two_ints__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[14.645875] (add_two_ints) StdoutLine: {'line': b'-- Installing: /home/nippun/ros2_course_test/install/add_two_ints/share/add_two_ints/cmake/export_add_two_ints__rosidl_generator_pyExport.cmake\n'}
+[14.646131] (add_two_ints) StdoutLine: {'line': b'-- Installing: /home/nippun/ros2_course_test/install/add_two_ints/share/add_two_ints/cmake/export_add_two_ints__rosidl_generator_pyExport-noconfig.cmake\n'}
+[14.646415] (add_two_ints) StdoutLine: {'line': b'-- Installing: /home/nippun/ros2_course_test/install/add_two_ints/share/add_two_ints/cmake/rosidl_cmake-extras.cmake\n'}
+[14.646670] (add_two_ints) StdoutLine: {'line': b'-- Installing: /home/nippun/ros2_course_test/install/add_two_ints/share/add_two_ints/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[14.646959] (add_two_ints) StdoutLine: {'line': b'-- Installing: /home/nippun/ros2_course_test/install/add_two_ints/share/add_two_ints/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[14.647226] (add_two_ints) StdoutLine: {'line': b'-- Installing: /home/nippun/ros2_course_test/install/add_two_ints/share/add_two_ints/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[14.647436] (add_two_ints) StdoutLine: {'line': b'-- Installing: /home/nippun/ros2_course_test/install/add_two_ints/share/add_two_ints/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[14.647648] (add_two_ints) StdoutLine: {'line': b'-- Installing: /home/nippun/ros2_course_test/install/add_two_ints/share/add_two_ints/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[14.647851] (add_two_ints) StdoutLine: {'line': b'-- Installing: /home/nippun/ros2_course_test/install/add_two_ints/share/add_two_ints/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[14.648055] (add_two_ints) StdoutLine: {'line': b'-- Installing: /home/nippun/ros2_course_test/install/add_two_ints/share/add_two_ints/cmake/add_two_intsConfig.cmake\n'}
+[14.648257] (add_two_ints) StdoutLine: {'line': b'-- Installing: /home/nippun/ros2_course_test/install/add_two_ints/share/add_two_ints/cmake/add_two_intsConfig-version.cmake\n'}
+[14.648460] (add_two_ints) StdoutLine: {'line': b'-- Installing: /home/nippun/ros2_course_test/install/add_two_ints/share/add_two_ints/package.xml\n'}
+[14.649904] (add_two_ints) CommandEnded: {'returncode': 0}
+[14.673117] (-) TimerEvent: {}
+[14.778682] (-) TimerEvent: {}
+[14.881287] (-) TimerEvent: {}
+[14.981913] (-) TimerEvent: {}
+[14.982842] (add_two_ints) JobEnded: {'identifier': 'add_two_ints', 'rc': 0}
+[14.983943] (-) EventReactorShutdown: {}

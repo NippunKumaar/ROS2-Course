@@ -1,0 +1,15 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from word_count_msg/srv/WordCount.srv
+// generated code does not contain a copyright notice
+
+
+module word_count_msg {
+  module srv {
+    struct WordCount_Request {
+      string words;
+    };
+    struct WordCount_Response {
+      uint64 count;
+    };
+  };
+};

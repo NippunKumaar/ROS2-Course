@@ -1,0 +1,6 @@
+{
+  "package_name": "word_count_msg",
+  "non_idl_tuples": [
+    "/home/nippun/ros2_course_test/src/word_count_msg:srv/WordCount.srv"
+  ]
+}

@@ -1,0 +1,6 @@
+{
+  "package_name": "add_two_ints",
+  "non_idl_tuples": [
+    "/home/nippun/ros2_course_test/src/add_two_ints:srv/AddTwoInts.srv"
+  ]
+}

@@ -1,0 +1,23 @@
+running egg_info
+writing ../../build/word_count/word_count.egg-info/PKG-INFO
+writing dependency_links to ../../build/word_count/word_count.egg-info/dependency_links.txt
+writing entry points to ../../build/word_count/word_count.egg-info/entry_points.txt
+writing requirements to ../../build/word_count/word_count.egg-info/requires.txt
+writing top-level names to ../../build/word_count/word_count.egg-info/top_level.txt
+reading manifest file '../../build/word_count/word_count.egg-info/SOURCES.txt'
+writing manifest file '../../build/word_count/word_count.egg-info/SOURCES.txt'
+running build
+running build_py
+copying word_count/word_count_client.py -> /home/nippun/ros2_course_test/build/word_count/build/lib/word_count
+running install
+running install_lib
+copying /home/nippun/ros2_course_test/build/word_count/build/lib/word_count/word_count_client.py -> /home/nippun/ros2_course_test/install/word_count/lib/python3.10/site-packages/word_count
+byte-compiling /home/nippun/ros2_course_test/install/word_count/lib/python3.10/site-packages/word_count/word_count_client.py to word_count_client.cpython-310.pyc
+running install_data
+running install_egg_info
+removing '/home/nippun/ros2_course_test/install/word_count/lib/python3.10/site-packages/word_count-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../build/word_count/word_count.egg-info to /home/nippun/ros2_course_test/install/word_count/lib/python3.10/site-packages/word_count-0.0.0-py3.10.egg-info
+running install_scripts
+Installing word_count_client script to /home/nippun/ros2_course_test/install/word_count/lib/word_count
+Installing word_count_service script to /home/nippun/ros2_course_test/install/word_count/lib/word_count
+writing list of installed files to '/home/nippun/ros2_course_test/build/word_count/install.log'

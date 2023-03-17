@@ -1,0 +1,17 @@
+package.xml
+setup.cfg
+setup.py
+../../build/word_count/word_count.egg-info/PKG-INFO
+../../build/word_count/word_count.egg-info/SOURCES.txt
+../../build/word_count/word_count.egg-info/dependency_links.txt
+../../build/word_count/word_count.egg-info/entry_points.txt
+../../build/word_count/word_count.egg-info/requires.txt
+../../build/word_count/word_count.egg-info/top_level.txt
+../../build/word_count/word_count.egg-info/zip-safe
+resource/word_count
+test/test_copyright.py
+test/test_flake8.py
+test/test_pep257.py
+word_count/__init__.py
+word_count/word_count_client.py
+word_count/word_count_server.py
