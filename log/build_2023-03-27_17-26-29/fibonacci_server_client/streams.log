@@ -1,0 +1,21 @@
+[1.352s] Invoking command in '/home/nippun/ros2_course_test/src/fibonacci_server_client': PYTHONPATH=/home/nippun/ros2_course_test/build/fibonacci_server_client/prefix_override:/home/nippun/ros2_course_test/install/fibonacci_server_client/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/fibonacci_server_client build --build-base /home/nippun/ros2_course_test/build/fibonacci_server_client/build install --record /home/nippun/ros2_course_test/build/fibonacci_server_client/install.log --single-version-externally-managed
+[1.837s] running egg_info
+[1.838s] writing ../../build/fibonacci_server_client/fibonacci_server_client.egg-info/PKG-INFO
+[1.839s] writing dependency_links to ../../build/fibonacci_server_client/fibonacci_server_client.egg-info/dependency_links.txt
+[1.839s] writing entry points to ../../build/fibonacci_server_client/fibonacci_server_client.egg-info/entry_points.txt
+[1.840s] writing requirements to ../../build/fibonacci_server_client/fibonacci_server_client.egg-info/requires.txt
+[1.840s] writing top-level names to ../../build/fibonacci_server_client/fibonacci_server_client.egg-info/top_level.txt
+[1.844s] reading manifest file '../../build/fibonacci_server_client/fibonacci_server_client.egg-info/SOURCES.txt'
+[1.847s] writing manifest file '../../build/fibonacci_server_client/fibonacci_server_client.egg-info/SOURCES.txt'
+[1.848s] running build
+[1.848s] running build_py
+[1.848s] running install
+[1.849s] running install_lib
+[1.853s] running install_data
+[1.854s] running install_egg_info
+[1.858s] removing '/home/nippun/ros2_course_test/install/fibonacci_server_client/lib/python3.10/site-packages/fibonacci_server_client-0.0.0-py3.10.egg-info' (and everything under it)
+[1.859s] Copying ../../build/fibonacci_server_client/fibonacci_server_client.egg-info to /home/nippun/ros2_course_test/install/fibonacci_server_client/lib/python3.10/site-packages/fibonacci_server_client-0.0.0-py3.10.egg-info
+[1.861s] running install_scripts
+[1.912s] Installing fibonacci_server script to /home/nippun/ros2_course_test/install/fibonacci_server_client/lib/fibonacci_server_client
+[1.913s] writing list of installed files to '/home/nippun/ros2_course_test/build/fibonacci_server_client/install.log'
+[1.990s] Invoked command in '/home/nippun/ros2_course_test/src/fibonacci_server_client' returned '0': PYTHONPATH=/home/nippun/ros2_course_test/build/fibonacci_server_client/prefix_override:/home/nippun/ros2_course_test/install/fibonacci_server_client/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/fibonacci_server_client build --build-base /home/nippun/ros2_course_test/build/fibonacci_server_client/build install --record /home/nippun/ros2_course_test/build/fibonacci_server_client/install.log --single-version-externally-managed

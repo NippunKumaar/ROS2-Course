@@ -1,0 +1,6 @@
+{
+  "package_name": "timer_action_interface",
+  "non_idl_tuples": [
+    "/home/nippun/ros2_course_test/src/timer_action_interface:action/Timer.action"
+  ]
+}

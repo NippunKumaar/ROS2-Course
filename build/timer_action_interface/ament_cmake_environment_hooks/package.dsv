@@ -1,0 +1,4 @@
+source;share/timer_action_interface/local_setup.bash
+source;share/timer_action_interface/local_setup.dsv
+source;share/timer_action_interface/local_setup.sh
+source;share/timer_action_interface/local_setup.zsh

@@ -1,0 +1,24 @@
+running egg_info
+writing ../../build/fibonacci_server_client/fibonacci_server_client.egg-info/PKG-INFO
+writing dependency_links to ../../build/fibonacci_server_client/fibonacci_server_client.egg-info/dependency_links.txt
+writing entry points to ../../build/fibonacci_server_client/fibonacci_server_client.egg-info/entry_points.txt
+writing requirements to ../../build/fibonacci_server_client/fibonacci_server_client.egg-info/requires.txt
+writing top-level names to ../../build/fibonacci_server_client/fibonacci_server_client.egg-info/top_level.txt
+reading manifest file '../../build/fibonacci_server_client/fibonacci_server_client.egg-info/SOURCES.txt'
+writing manifest file '../../build/fibonacci_server_client/fibonacci_server_client.egg-info/SOURCES.txt'
+running build
+running build_py
+copying fibonacci_server_client/fibonacci_action_client.py -> /home/nippun/ros2_course_test/build/fibonacci_server_client/build/lib/fibonacci_server_client
+running install
+running install_lib
+copying /home/nippun/ros2_course_test/build/fibonacci_server_client/build/lib/fibonacci_server_client/fibonacci_action_client.py -> /home/nippun/ros2_course_test/install/fibonacci_server_client/lib/python3.10/site-packages/fibonacci_server_client
+byte-compiling /home/nippun/ros2_course_test/install/fibonacci_server_client/lib/python3.10/site-packages/fibonacci_server_client/fibonacci_action_client.py to fibonacci_action_client.cpython-310.pyc
+running install_data
+running install_egg_info
+removing '/home/nippun/ros2_course_test/install/fibonacci_server_client/lib/python3.10/site-packages/fibonacci_server_client-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../build/fibonacci_server_client/fibonacci_server_client.egg-info to /home/nippun/ros2_course_test/install/fibonacci_server_client/lib/python3.10/site-packages/fibonacci_server_client-0.0.0-py3.10.egg-info
+running install_scripts
+Installing fibonacci_action_client script to /home/nippun/ros2_course_test/install/fibonacci_server_client/lib/fibonacci_server_client
+Installing fibonacci_server script to /home/nippun/ros2_course_test/install/fibonacci_server_client/lib/fibonacci_server_client
+Installing fibonacci_server_feedback script to /home/nippun/ros2_course_test/install/fibonacci_server_client/lib/fibonacci_server_client
+writing list of installed files to '/home/nippun/ros2_course_test/build/fibonacci_server_client/install.log'

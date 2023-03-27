@@ -1,0 +1,13 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/timer_action_interface__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/timer_action_interface/action/detail/timer__type_support.cpp.o"
+  "CMakeFiles/timer_action_interface__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/timer_action_interface/action/detail/timer__type_support.cpp.o.d"
+  "libtimer_action_interface__rosidl_typesupport_introspection_cpp.pdb"
+  "libtimer_action_interface__rosidl_typesupport_introspection_cpp.so"
+  "rosidl_typesupport_introspection_cpp/timer_action_interface/action/detail/timer__rosidl_typesupport_introspection_cpp.hpp"
+  "rosidl_typesupport_introspection_cpp/timer_action_interface/action/detail/timer__type_support.cpp"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang CXX)
+  include(CMakeFiles/timer_action_interface__rosidl_typesupport_introspection_cpp.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

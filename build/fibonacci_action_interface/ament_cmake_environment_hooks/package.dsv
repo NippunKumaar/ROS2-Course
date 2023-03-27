@@ -1,0 +1,4 @@
+source;share/fibonacci_action_interface/local_setup.bash
+source;share/fibonacci_action_interface/local_setup.dsv
+source;share/fibonacci_action_interface/local_setup.sh
+source;share/fibonacci_action_interface/local_setup.zsh

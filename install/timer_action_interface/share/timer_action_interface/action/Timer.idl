@@ -1,0 +1,22 @@
+// generated from rosidl_adapter/resource/action.idl.em
+// with input from timer_action_interface/action/Timer.action
+// generated code does not contain a copyright notice
+
+
+module timer_action_interface {
+  module action {
+    struct Timer_Goal {
+      int32 time_to_wait;
+    };
+    struct Timer_Result {
+      int32 time_elapsed;
+
+      uint32 updates_sent;
+    };
+    struct Timer_Feedback {
+      int32 time_elapsed;
+
+      int32 time_remaining;
+    };
+  };
+};

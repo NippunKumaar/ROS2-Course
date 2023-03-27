@@ -1,0 +1,26 @@
+[0.030s] Invoking command in '/home/nippun/ros2_course_test/build/timer_action_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nippun/ros2_course_test/install/word_count:/home/nippun/ros2_course_test/install/turtlesim_control:/home/nippun/ros2_course_test/install/talker_listener:/home/nippun/ros2_course_test/install/my_first_package:/home/nippun/ros2_course_test/install/complex_talker_listener:/home/nippun/ros2_course_test/install/adding_integers:/home/nippun/ros2_ws/install/tele_op:/home/nippun/ros2_ws/install/talker_listner:/home/nippun/ros2_ws/install/my_first_package:/home/nippun/ros2_ws/install/example:/home/nippun/ros2_course_ws/install/my_first_package:/home/nippun/ros2_course_ws/install/complex_talker_listener:/opt/ros/humble /usr/bin/cmake /home/nippun/ros2_course_test/src/timer_action_interface -DCMAKE_INSTALL_PREFIX=/home/nippun/ros2_course_test/install/timer_action_interface
+[0.045s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.046s] -- Found ament_cmake_core: 1.3.3 (/opt/ros/humble/share/ament_cmake_core/cmake)
+[0.292s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.301s] -- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.375s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.623s] [31mCMake Error at /opt/ros/humble/share/rosidl_adapter/cmake/rosidl_adapt_interfaces.cmake:59 (message):
+[0.623s]   execute_process(/usr/bin/python3.10 -m rosidl_adapter --package-name
+[0.623s]   timer_action_interface --arguments-file
+[0.623s]   /home/nippun/ros2_course_test/build/timer_action_interface/rosidl_adapter__arguments__timer_action_interface.json
+[0.624s]   --output-dir
+[0.624s]   /home/nippun/ros2_course_test/build/timer_action_interface/rosidl_adapter/timer_action_interface
+[0.624s]   --output-file
+[0.624s]   /home/nippun/ros2_course_test/build/timer_action_interface/rosidl_adapter/timer_action_interface.idls)
+[0.624s]   returned error code 1:
+[0.625s] 
+[0.625s]   KeyError processing template 'struct.idl.em': 'duration'
+[0.625s] 
+[0.625s] Call Stack (most recent call first):
+[0.625s]   /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:130 (rosidl_adapt_interfaces)
+[0.625s]   CMakeLists.txt:10 (rosidl_generate_interfaces)
+[0.626s] 
+[0.626s] [0m
+[0.626s] -- Configuring incomplete, errors occurred!
+[0.626s] See also "/home/nippun/ros2_course_test/build/timer_action_interface/CMakeFiles/CMakeOutput.log".
+[0.640s] Invoked command in '/home/nippun/ros2_course_test/build/timer_action_interface' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nippun/ros2_course_test/install/word_count:/home/nippun/ros2_course_test/install/turtlesim_control:/home/nippun/ros2_course_test/install/talker_listener:/home/nippun/ros2_course_test/install/my_first_package:/home/nippun/ros2_course_test/install/complex_talker_listener:/home/nippun/ros2_course_test/install/adding_integers:/home/nippun/ros2_ws/install/tele_op:/home/nippun/ros2_ws/install/talker_listner:/home/nippun/ros2_ws/install/my_first_package:/home/nippun/ros2_ws/install/example:/home/nippun/ros2_course_ws/install/my_first_package:/home/nippun/ros2_course_ws/install/complex_talker_listener:/opt/ros/humble /usr/bin/cmake /home/nippun/ros2_course_test/src/timer_action_interface -DCMAKE_INSTALL_PREFIX=/home/nippun/ros2_course_test/install/timer_action_interface
