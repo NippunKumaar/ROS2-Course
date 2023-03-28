@@ -1,7 +1,7 @@
 import rclpy
 from rclpy.action import ActionServer
 from rclpy.node import Node
-from action_tutorials_interfaces.action import Fibonacci
+from  fibonacci_action_interface.action import Fibonacci
 
 class FibonacciActionServer(Node):
 

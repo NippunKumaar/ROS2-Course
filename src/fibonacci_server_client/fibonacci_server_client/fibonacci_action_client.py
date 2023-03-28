@@ -2,7 +2,7 @@ import sys
 import rclpy
 from rclpy.action import ActionClient
 from rclpy.node import Node
-from action_tutorials_interfaces.action import Fibonacci
+from  fibonacci_action_interface.action import Fibonacci
 class FibonacciActionClient(Node):
     def __init__(self):
         super().__init__('fibonacci_action_client')
