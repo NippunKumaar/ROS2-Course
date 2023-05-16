@@ -1,0 +1,25 @@
+[1.359s] Invoking command in '/home/nippun/ros2_course_test/src/teleopbot': PYTHONPATH=/home/nippun/ros2_course_test/build/teleopbot/prefix_override:/home/nippun/ros2_course_test/install/teleopbot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/teleopbot build --build-base /home/nippun/ros2_course_test/build/teleopbot/build install --record /home/nippun/ros2_course_test/build/teleopbot/install.log --single-version-externally-managed
+[1.887s] running egg_info
+[1.888s] writing ../../build/teleopbot/teleopbot.egg-info/PKG-INFO
+[1.888s] writing dependency_links to ../../build/teleopbot/teleopbot.egg-info/dependency_links.txt
+[1.888s] writing entry points to ../../build/teleopbot/teleopbot.egg-info/entry_points.txt
+[1.888s] writing requirements to ../../build/teleopbot/teleopbot.egg-info/requires.txt
+[1.889s] writing top-level names to ../../build/teleopbot/teleopbot.egg-info/top_level.txt
+[1.891s] reading manifest file '../../build/teleopbot/teleopbot.egg-info/SOURCES.txt'
+[1.892s] writing manifest file '../../build/teleopbot/teleopbot.egg-info/SOURCES.txt'
+[1.893s] running build
+[1.893s] running build_py
+[1.893s] copying teleopbot/Key_detect.py -> /home/nippun/ros2_course_test/build/teleopbot/build/lib/teleopbot
+[1.894s] running install
+[1.894s] running install_lib
+[1.895s] copying /home/nippun/ros2_course_test/build/teleopbot/build/lib/teleopbot/Key_detect.py -> /home/nippun/ros2_course_test/install/teleopbot/lib/python3.10/site-packages/teleopbot
+[1.896s] byte-compiling /home/nippun/ros2_course_test/install/teleopbot/lib/python3.10/site-packages/teleopbot/Key_detect.py to Key_detect.cpython-310.pyc
+[1.897s] running install_data
+[1.898s] running install_egg_info
+[1.900s] removing '/home/nippun/ros2_course_test/install/teleopbot/lib/python3.10/site-packages/teleopbot-0.0.0-py3.10.egg-info' (and everything under it)
+[1.900s] Copying ../../build/teleopbot/teleopbot.egg-info to /home/nippun/ros2_course_test/install/teleopbot/lib/python3.10/site-packages/teleopbot-0.0.0-py3.10.egg-info
+[1.902s] running install_scripts
+[1.931s] Installing keyboard_driver script to /home/nippun/ros2_course_test/install/teleopbot/lib/teleopbot
+[1.932s] Installing teleop_node script to /home/nippun/ros2_course_test/install/teleopbot/lib/teleopbot
+[1.932s] writing list of installed files to '/home/nippun/ros2_course_test/build/teleopbot/install.log'
+[1.979s] Invoked command in '/home/nippun/ros2_course_test/src/teleopbot' returned '0': PYTHONPATH=/home/nippun/ros2_course_test/build/teleopbot/prefix_override:/home/nippun/ros2_course_test/install/teleopbot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/teleopbot build --build-base /home/nippun/ros2_course_test/build/teleopbot/build install --record /home/nippun/ros2_course_test/build/teleopbot/install.log --single-version-externally-managed

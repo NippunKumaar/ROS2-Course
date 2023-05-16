@@ -1,0 +1,159 @@
+[0.000000] (-) TimerEvent: {}
+[0.006568] (-) JobUnselected: {'identifier': 'add_two_ints'}
+[0.006810] (-) JobUnselected: {'identifier': 'adding_integers'}
+[0.007130] (-) JobUnselected: {'identifier': 'complex_msg'}
+[0.007296] (-) JobUnselected: {'identifier': 'complex_talker_listener'}
+[0.007463] (-) JobUnselected: {'identifier': 'fibonacci_action_interface'}
+[0.008159] (-) JobUnselected: {'identifier': 'fibonacci_server_client'}
+[0.008530] (-) JobUnselected: {'identifier': 'my_first_package'}
+[0.008710] (-) JobUnselected: {'identifier': 'talker_listener'}
+[0.008896] (-) JobUnselected: {'identifier': 'turtlebot3_basic'}
+[0.009057] (-) JobUnselected: {'identifier': 'turtlesim_control'}
+[0.009161] (-) JobUnselected: {'identifier': 'word_count'}
+[0.009260] (-) JobUnselected: {'identifier': 'word_count_msg'}
+[0.009365] (teleopbot) JobQueued: {'identifier': 'teleopbot', 'dependencies': OrderedDict()}
+[0.009466] (teleopbot) JobStarted: {'identifier': 'teleopbot'}
+[0.093204] (-) TimerEvent: {}
+[0.193640] (-) TimerEvent: {}
+[0.294227] (-) TimerEvent: {}
+[0.419937] (-) TimerEvent: {}
+[0.521949] (-) TimerEvent: {}
+[0.622929] (-) TimerEvent: {}
+[0.723998] (-) TimerEvent: {}
+[0.825667] (-) TimerEvent: {}
+[0.947937] (-) TimerEvent: {}
+[1.048607] (-) TimerEvent: {}
+[1.149069] (-) TimerEvent: {}
+[1.249929] (-) TimerEvent: {}
+[1.351419] (-) TimerEvent: {}
+[1.476013] (-) TimerEvent: {}
+[1.576534] (-) TimerEvent: {}
+[1.677381] (-) TimerEvent: {}
+[1.777886] (-) TimerEvent: {}
+[1.878540] (-) TimerEvent: {}
+[1.979233] (-) TimerEvent: {}
+[2.099971] (-) TimerEvent: {}
+[2.200867] (-) TimerEvent: {}
+[2.301273] (-) TimerEvent: {}
+[2.401758] (-) TimerEvent: {}
+[2.502225] (-) TimerEvent: {}
+[2.602688] (-) TimerEvent: {}
+[2.724539] (-) TimerEvent: {}
+[2.826043] (-) TimerEvent: {}
+[2.928005] (-) TimerEvent: {}
+[3.029297] (-) TimerEvent: {}
+[3.130659] (-) TimerEvent: {}
+[3.256861] (-) TimerEvent: {}
+[3.359569] (-) TimerEvent: {}
+[3.463710] (-) TimerEvent: {}
+[3.587980] (-) TimerEvent: {}
+[3.689356] (-) TimerEvent: {}
+[3.792636] (-) TimerEvent: {}
+[3.896938] (-) TimerEvent: {}
+[4.022894] (-) TimerEvent: {}
+[4.124374] (-) TimerEvent: {}
+[4.225705] (-) TimerEvent: {}
+[4.326112] (-) TimerEvent: {}
+[4.426508] (-) TimerEvent: {}
+[4.548279] (-) TimerEvent: {}
+[4.648916] (-) TimerEvent: {}
+[4.749331] (-) TimerEvent: {}
+[4.849759] (-) TimerEvent: {}
+[4.950269] (-) TimerEvent: {}
+[5.050985] (-) TimerEvent: {}
+[5.171908] (-) TimerEvent: {}
+[5.272320] (-) TimerEvent: {}
+[5.372818] (-) TimerEvent: {}
+[5.473592] (-) TimerEvent: {}
+[5.574579] (-) TimerEvent: {}
+[5.675284] (-) TimerEvent: {}
+[5.801107] (-) TimerEvent: {}
+[5.901667] (-) TimerEvent: {}
+[6.003675] (-) TimerEvent: {}
+[6.104409] (-) TimerEvent: {}
+[6.228211] (-) TimerEvent: {}
+[6.328592] (-) TimerEvent: {}
+[6.429027] (-) TimerEvent: {}
+[6.529532] (-) TimerEvent: {}
+[6.631275] (-) TimerEvent: {}
+[6.731783] (-) TimerEvent: {}
+[6.852428] (-) TimerEvent: {}
+[6.952922] (-) TimerEvent: {}
+[7.053382] (-) TimerEvent: {}
+[7.158457] (-) TimerEvent: {}
+[7.259135] (-) TimerEvent: {}
+[7.384393] (-) TimerEvent: {}
+[7.485625] (-) TimerEvent: {}
+[7.589698] (-) TimerEvent: {}
+[7.719875] (-) TimerEvent: {}
+[7.820770] (-) TimerEvent: {}
+[7.921783] (-) TimerEvent: {}
+[8.023332] (-) TimerEvent: {}
+[8.148260] (-) TimerEvent: {}
+[8.251784] (-) TimerEvent: {}
+[8.352351] (-) TimerEvent: {}
+[8.453101] (-) TimerEvent: {}
+[8.553904] (-) TimerEvent: {}
+[8.654612] (-) TimerEvent: {}
+[8.735055] (teleopbot) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/teleopbot', 'build', '--build-base', '/home/nippun/ros2_course_test/build/teleopbot/build', 'install', '--record', '/home/nippun/ros2_course_test/build/teleopbot/install.log', '--single-version-externally-managed'], 'cwd': '/home/nippun/ros2_course_test/src/teleopbot', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'en_IN:en', 'USER': 'nippun', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/nippun/ros2_course_test/install/word_count_msg/lib:/home/nippun/ros2_course_test/install/timer_action_interface/lib:/home/nippun/ros2_course_test/install/fibonacci_action_interface/lib:/home/nippun/ros2_course_test/install/complex_msg/lib:/home/nippun/ros2_course_test/install/add_two_ints/lib:/home/nippun/ros2_course_ws/install/complex_msg/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/home/nippun/usr/lib:/home/nippun/usr/lib/x86_64-linux-gnu:/usr/local/lib:/usr/local/lib64:', 'HOME': '/home/nippun', 'OLDPWD': '/home/nippun/ros2_course_test/src', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '2666', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'STAGEPATH': '/usr/local/lib:/usr/local/lib64:', '_colcon_cd_root': '/home/nippun/ros2_course_test/', 'QT_QPA_PLATFORMTHEME': 'appmenu-qt5', 'IM_CONFIG_PHASE': '1', 'PLAYERPATH': '/usr/local/lib:/usr/local/lib64', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/nippun/ros2_course_test/install:/home/nippun/ros2_ws/install:/home/nippun/ros2_course_ws/install:/home/nippun/ros2_Phd_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'nippun', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'PKG_CONFIG_PATH': '/usr/local/lib64/pkgconfig:/usr/local/lib64:/usr/local/include/player-3.0', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'nippun', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/home/nippun/usr/local/bin:/home/nippun/usr/local/bin:/usr/local/lib64:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/nippun-MacBookPro:@/tmp/.ICE-unix/2529,unix/nippun-MacBookPro:/tmp/.ICE-unix/2529', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/6497d253_427a_4fe2_864a_da0036c60a8b', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.HF6A51', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.134', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/nippun/ros2_course_test/install/word_count_msg:/home/nippun/ros2_course_test/install/word_count:/home/nippun/ros2_course_test/install/turtlesim_control:/home/nippun/ros2_course_test/install/turtlebot3_basic:/home/nippun/ros2_course_test/install/timer_action_interface:/home/nippun/ros2_course_test/install/talker_listener:/home/nippun/ros2_course_test/install/my_first_package:/home/nippun/ros2_course_test/install/fibonacci_server_client:/home/nippun/ros2_course_test/install/fibonacci_action_interface:/home/nippun/ros2_course_test/install/complex_talker_listener:/home/nippun/ros2_course_test/install/complex_msg:/home/nippun/ros2_course_test/install/adding_integers:/home/nippun/ros2_course_test/install/add_two_ints:/home/nippun/ros2_ws/install/tele_op:/home/nippun/ros2_ws/install/talker_listner:/home/nippun/ros2_ws/install/my_first_package:/home/nippun/ros2_ws/install/example:/home/nippun/ros2_course_ws/install/my_first_package:/home/nippun/ros2_course_ws/install/complex_talker_listener:/home/nippun/ros2_course_ws/install/complex_msg:/home/nippun/ros2_Phd_ws/install/teaching_module:/home/nippun/ros2_Phd_ws/install/mix_module:/home/nippun/ros2_Phd_ws/install/gazebo_module:/opt/ros/humble', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/nippun/ros2_course_test/build/teleopbot', 'TURTLEBOT3_MODEL': 'burger', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/nippun/ros2_course_test/build/teleopbot/prefix_override:/home/nippun/ros2_course_test/install/teleopbot/lib/python3.10/site-packages:/home/nippun/ros2_course_test/install/word_count_msg/local/lib/python3.10/dist-packages:/home/nippun/ros2_course_test/install/word_count/lib/python3.10/site-packages:/home/nippun/ros2_course_test/install/turtlesim_control/lib/python3.10/site-packages:/home/nippun/ros2_course_test/install/turtlebot3_basic/lib/python3.10/site-packages:/home/nippun/ros2_course_test/install/talker_listener/lib/python3.10/site-packages:/home/nippun/ros2_course_test/install/my_first_package/lib/python3.10/site-packages:/home/nippun/ros2_course_test/install/fibonacci_server_client/lib/python3.10/site-packages:/home/nippun/ros2_course_test/install/fibonacci_action_interface/local/lib/python3.10/dist-packages:/home/nippun/ros2_course_test/install/complex_talker_listener/lib/python3.10/site-packages:/home/nippun/ros2_course_test/install/complex_msg/local/lib/python3.10/dist-packages:/home/nippun/ros2_course_test/install/adding_integers/lib/python3.10/site-packages:/home/nippun/ros2_course_test/install/add_two_ints/local/lib/python3.10/dist-packages:/home/nippun/ros2_ws/install/tele_op/lib/python3.10/site-packages:/home/nippun/ros2_ws/install/talker_listner/lib/python3.10/site-packages:/home/nippun/ros2_ws/install/my_first_package/lib/python3.10/site-packages:/home/nippun/ros2_ws/install/example/lib/python3.10/site-packages:/home/nippun/ros2_course_ws/install/my_first_package/lib/python3.10/site-packages:/home/nippun/ros2_course_ws/install/complex_talker_listener/lib/python3.10/site-packages:/home/nippun/ros2_course_ws/install/complex_msg/local/lib/python3.10/dist-packages:/home/nippun/ros2_Phd_ws/install/teaching_module/lib/python3.10/site-packages:/home/nippun/ros2_Phd_ws/install/mix_module/lib/python3.10/site-packages:/home/nippun/ros2_Phd_ws/install/gazebo_module/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'CPATH': '/home/nippun/usr/local/include:', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/home/nippun/ros2_course_test/install/word_count_msg:/home/nippun/ros2_course_test/install/timer_action_interface:/home/nippun/ros2_course_test/install/fibonacci_action_interface:/home/nippun/ros2_course_test/install/complex_msg:/home/nippun/ros2_course_test/install/add_two_ints:/home/nippun/ros2_course_ws/install/complex_msg'}, 'shell': False}
+[8.780640] (-) TimerEvent: {}
+[8.883002] (-) TimerEvent: {}
+[8.983780] (-) TimerEvent: {}
+[9.084250] (-) TimerEvent: {}
+[9.204473] (-) TimerEvent: {}
+[9.305614] (-) TimerEvent: {}
+[9.406144] (-) TimerEvent: {}
+[9.506919] (-) TimerEvent: {}
+[9.608441] (-) TimerEvent: {}
+[9.732027] (-) TimerEvent: {}
+[9.832692] (-) TimerEvent: {}
+[9.933395] (-) TimerEvent: {}
+[10.035464] (-) TimerEvent: {}
+[10.136661] (-) TimerEvent: {}
+[10.260543] (-) TimerEvent: {}
+[10.367171] (-) TimerEvent: {}
+[10.467989] (-) TimerEvent: {}
+[10.568550] (-) TimerEvent: {}
+[10.691916] (-) TimerEvent: {}
+[10.792574] (-) TimerEvent: {}
+[10.893454] (-) TimerEvent: {}
+[10.994897] (-) TimerEvent: {}
+[11.096612] (-) TimerEvent: {}
+[11.220339] (-) TimerEvent: {}
+[11.327986] (-) TimerEvent: {}
+[11.429124] (-) TimerEvent: {}
+[11.529856] (-) TimerEvent: {}
+[11.651925] (-) TimerEvent: {}
+[11.752429] (-) TimerEvent: {}
+[11.852835] (-) TimerEvent: {}
+[11.901698] (teleopbot) StdoutLine: {'line': b'running egg_info\n'}
+[11.903317] (teleopbot) StdoutLine: {'line': b'writing ../../build/teleopbot/teleopbot.egg-info/PKG-INFO\n'}
+[11.904037] (teleopbot) StdoutLine: {'line': b'writing dependency_links to ../../build/teleopbot/teleopbot.egg-info/dependency_links.txt\n'}
+[11.904529] (teleopbot) StdoutLine: {'line': b'writing entry points to ../../build/teleopbot/teleopbot.egg-info/entry_points.txt\n'}
+[11.904971] (teleopbot) StdoutLine: {'line': b'writing requirements to ../../build/teleopbot/teleopbot.egg-info/requires.txt\n'}
+[11.905467] (teleopbot) StdoutLine: {'line': b'writing top-level names to ../../build/teleopbot/teleopbot.egg-info/top_level.txt\n'}
+[11.909293] (teleopbot) StdoutLine: {'line': b"reading manifest file '../../build/teleopbot/teleopbot.egg-info/SOURCES.txt'\n"}
+[11.911480] (teleopbot) StdoutLine: {'line': b"writing manifest file '../../build/teleopbot/teleopbot.egg-info/SOURCES.txt'\n"}
+[11.911982] (teleopbot) StdoutLine: {'line': b'running build\n'}
+[11.912704] (teleopbot) StdoutLine: {'line': b'running build_py\n'}
+[11.913405] (teleopbot) StdoutLine: {'line': b'copying teleopbot/motion_generator.py -> /home/nippun/ros2_course_test/build/teleopbot/build/lib/teleopbot\n'}
+[11.913653] (teleopbot) StdoutLine: {'line': b'running install\n'}
+[11.914112] (teleopbot) StdoutLine: {'line': b'running install_lib\n'}
+[11.943958] (teleopbot) StdoutLine: {'line': b'copying /home/nippun/ros2_course_test/build/teleopbot/build/lib/teleopbot/motion_generator.py -> /home/nippun/ros2_course_test/install/teleopbot/lib/python3.10/site-packages/teleopbot\n'}
+[11.944273] (teleopbot) StdoutLine: {'line': b'byte-compiling /home/nippun/ros2_course_test/install/teleopbot/lib/python3.10/site-packages/teleopbot/motion_generator.py to motion_generator.cpython-310.pyc\n'}
+[11.944492] (teleopbot) StdoutLine: {'line': b'running install_data\n'}
+[11.945588] (teleopbot) StdoutLine: {'line': b'running install_egg_info\n'}
+[11.948367] (teleopbot) StdoutLine: {'line': b"removing '/home/nippun/ros2_course_test/install/teleopbot/lib/python3.10/site-packages/teleopbot-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[11.948880] (teleopbot) StdoutLine: {'line': b'Copying ../../build/teleopbot/teleopbot.egg-info to /home/nippun/ros2_course_test/install/teleopbot/lib/python3.10/site-packages/teleopbot-0.0.0-py3.10.egg-info\n'}
+[11.951790] (teleopbot) StdoutLine: {'line': b'running install_scripts\n'}
+[11.953208] (-) TimerEvent: {}
+[12.053891] (-) TimerEvent: {}
+[12.100613] (teleopbot) StdoutLine: {'line': b'Installing keyboard_driver script to /home/nippun/ros2_course_test/install/teleopbot/lib/teleopbot\n'}
+[12.101762] (teleopbot) StdoutLine: {'line': b'Installing teleop_node script to /home/nippun/ros2_course_test/install/teleopbot/lib/teleopbot\n'}
+[12.102671] (teleopbot) StdoutLine: {'line': b"writing list of installed files to '/home/nippun/ros2_course_test/build/teleopbot/install.log'\n"}
+[12.154146] (-) TimerEvent: {}
+[12.255053] (-) TimerEvent: {}
+[12.339877] (teleopbot) CommandEnded: {'returncode': 0}
+[12.373557] (-) TimerEvent: {}
+[12.422046] (teleopbot) JobEnded: {'identifier': 'teleopbot', 'rc': 0}
+[12.423890] (-) EventReactorShutdown: {}

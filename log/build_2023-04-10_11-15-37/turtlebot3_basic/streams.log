@@ -1,0 +1,38 @@
+[2.955s] Invoking command in '/home/nippun/ros2_course_test/src/turtlebot3_basic': PYTHONPATH=/home/nippun/ros2_course_test/build/turtlebot3_basic/prefix_override:/home/nippun/ros2_course_test/install/turtlebot3_basic/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/turtlebot3_basic build --build-base /home/nippun/ros2_course_test/build/turtlebot3_basic/build install --record /home/nippun/ros2_course_test/build/turtlebot3_basic/install.log --single-version-externally-managed
+[3.478s] running egg_info
+[3.479s] creating ../../build/turtlebot3_basic/turtlebot3_basic.egg-info
+[3.480s] writing ../../build/turtlebot3_basic/turtlebot3_basic.egg-info/PKG-INFO
+[3.480s] writing dependency_links to ../../build/turtlebot3_basic/turtlebot3_basic.egg-info/dependency_links.txt
+[3.480s] writing entry points to ../../build/turtlebot3_basic/turtlebot3_basic.egg-info/entry_points.txt
+[3.481s] writing requirements to ../../build/turtlebot3_basic/turtlebot3_basic.egg-info/requires.txt
+[3.481s] writing top-level names to ../../build/turtlebot3_basic/turtlebot3_basic.egg-info/top_level.txt
+[3.481s] writing manifest file '../../build/turtlebot3_basic/turtlebot3_basic.egg-info/SOURCES.txt'
+[3.485s] reading manifest file '../../build/turtlebot3_basic/turtlebot3_basic.egg-info/SOURCES.txt'
+[3.487s] writing manifest file '../../build/turtlebot3_basic/turtlebot3_basic.egg-info/SOURCES.txt'
+[3.488s] running build
+[3.488s] running build_py
+[3.488s] creating /home/nippun/ros2_course_test/build/turtlebot3_basic/build
+[3.488s] creating /home/nippun/ros2_course_test/build/turtlebot3_basic/build/lib
+[3.488s] creating /home/nippun/ros2_course_test/build/turtlebot3_basic/build/lib/turtlebot3_basic
+[3.489s] copying turtlebot3_basic/start_stop.py -> /home/nippun/ros2_course_test/build/turtlebot3_basic/build/lib/turtlebot3_basic
+[3.489s] copying turtlebot3_basic/__init__.py -> /home/nippun/ros2_course_test/build/turtlebot3_basic/build/lib/turtlebot3_basic
+[3.489s] running install
+[3.489s] running install_lib
+[3.491s] creating /home/nippun/ros2_course_test/install/turtlebot3_basic/lib/python3.10/site-packages/turtlebot3_basic
+[3.492s] copying /home/nippun/ros2_course_test/build/turtlebot3_basic/build/lib/turtlebot3_basic/start_stop.py -> /home/nippun/ros2_course_test/install/turtlebot3_basic/lib/python3.10/site-packages/turtlebot3_basic
+[3.492s] copying /home/nippun/ros2_course_test/build/turtlebot3_basic/build/lib/turtlebot3_basic/__init__.py -> /home/nippun/ros2_course_test/install/turtlebot3_basic/lib/python3.10/site-packages/turtlebot3_basic
+[3.493s] byte-compiling /home/nippun/ros2_course_test/install/turtlebot3_basic/lib/python3.10/site-packages/turtlebot3_basic/start_stop.py to start_stop.cpython-310.pyc
+[3.494s] Sorry: IndentationError: unindent does not match any outer indentation level (start_stop.py, line 13)
+[3.494s] byte-compiling /home/nippun/ros2_course_test/install/turtlebot3_basic/lib/python3.10/site-packages/turtlebot3_basic/__init__.py to __init__.cpython-310.pyc
+[3.494s] running install_data
+[3.496s] creating /home/nippun/ros2_course_test/install/turtlebot3_basic/share/ament_index
+[3.496s] creating /home/nippun/ros2_course_test/install/turtlebot3_basic/share/ament_index/resource_index
+[3.496s] creating /home/nippun/ros2_course_test/install/turtlebot3_basic/share/ament_index/resource_index/packages
+[3.496s] copying resource/turtlebot3_basic -> /home/nippun/ros2_course_test/install/turtlebot3_basic/share/ament_index/resource_index/packages
+[3.497s] copying package.xml -> /home/nippun/ros2_course_test/install/turtlebot3_basic/share/turtlebot3_basic
+[3.497s] running install_egg_info
+[3.500s] Copying ../../build/turtlebot3_basic/turtlebot3_basic.egg-info to /home/nippun/ros2_course_test/install/turtlebot3_basic/lib/python3.10/site-packages/turtlebot3_basic-0.0.0-py3.10.egg-info
+[3.502s] running install_scripts
+[3.531s] Installing start_stop_node script to /home/nippun/ros2_course_test/install/turtlebot3_basic/lib/turtlebot3_basic
+[3.532s] writing list of installed files to '/home/nippun/ros2_course_test/build/turtlebot3_basic/install.log'
+[3.583s] Invoked command in '/home/nippun/ros2_course_test/src/turtlebot3_basic' returned '0': PYTHONPATH=/home/nippun/ros2_course_test/build/turtlebot3_basic/prefix_override:/home/nippun/ros2_course_test/install/turtlebot3_basic/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/turtlebot3_basic build --build-base /home/nippun/ros2_course_test/build/turtlebot3_basic/build install --record /home/nippun/ros2_course_test/build/turtlebot3_basic/install.log --single-version-externally-managed

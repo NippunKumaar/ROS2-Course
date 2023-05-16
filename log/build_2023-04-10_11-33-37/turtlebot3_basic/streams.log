@@ -1,0 +1,25 @@
+[2.493s] Invoking command in '/home/nippun/ros2_course_test/src/turtlebot3_basic': PYTHONPATH=/home/nippun/ros2_course_test/build/turtlebot3_basic/prefix_override:/home/nippun/ros2_course_test/install/turtlebot3_basic/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/turtlebot3_basic build --build-base /home/nippun/ros2_course_test/build/turtlebot3_basic/build install --record /home/nippun/ros2_course_test/build/turtlebot3_basic/install.log --single-version-externally-managed
+[3.357s] running egg_info
+[3.359s] writing ../../build/turtlebot3_basic/turtlebot3_basic.egg-info/PKG-INFO
+[3.360s] writing dependency_links to ../../build/turtlebot3_basic/turtlebot3_basic.egg-info/dependency_links.txt
+[3.361s] writing entry points to ../../build/turtlebot3_basic/turtlebot3_basic.egg-info/entry_points.txt
+[3.361s] writing requirements to ../../build/turtlebot3_basic/turtlebot3_basic.egg-info/requires.txt
+[3.362s] writing top-level names to ../../build/turtlebot3_basic/turtlebot3_basic.egg-info/top_level.txt
+[3.365s] reading manifest file '../../build/turtlebot3_basic/turtlebot3_basic.egg-info/SOURCES.txt'
+[3.374s] writing manifest file '../../build/turtlebot3_basic/turtlebot3_basic.egg-info/SOURCES.txt'
+[3.374s] running build
+[3.374s] running build_py
+[3.374s] copying turtlebot3_basic/obs_detection.py -> /home/nippun/ros2_course_test/build/turtlebot3_basic/build/lib/turtlebot3_basic
+[3.375s] running install
+[3.375s] running install_lib
+[3.375s] copying /home/nippun/ros2_course_test/build/turtlebot3_basic/build/lib/turtlebot3_basic/obs_detection.py -> /home/nippun/ros2_course_test/install/turtlebot3_basic/lib/python3.10/site-packages/turtlebot3_basic
+[3.375s] byte-compiling /home/nippun/ros2_course_test/install/turtlebot3_basic/lib/python3.10/site-packages/turtlebot3_basic/obs_detection.py to obs_detection.cpython-310.pyc
+[3.375s] running install_data
+[3.376s] running install_egg_info
+[3.383s] removing '/home/nippun/ros2_course_test/install/turtlebot3_basic/lib/python3.10/site-packages/turtlebot3_basic-0.0.0-py3.10.egg-info' (and everything under it)
+[3.384s] Copying ../../build/turtlebot3_basic/turtlebot3_basic.egg-info to /home/nippun/ros2_course_test/install/turtlebot3_basic/lib/python3.10/site-packages/turtlebot3_basic-0.0.0-py3.10.egg-info
+[3.388s] running install_scripts
+[3.441s] Installing obs_detection_node script to /home/nippun/ros2_course_test/install/turtlebot3_basic/lib/turtlebot3_basic
+[3.442s] Installing start_stop_node script to /home/nippun/ros2_course_test/install/turtlebot3_basic/lib/turtlebot3_basic
+[3.446s] writing list of installed files to '/home/nippun/ros2_course_test/build/turtlebot3_basic/install.log'
+[3.534s] Invoked command in '/home/nippun/ros2_course_test/src/turtlebot3_basic' returned '0': PYTHONPATH=/home/nippun/ros2_course_test/build/turtlebot3_basic/prefix_override:/home/nippun/ros2_course_test/install/turtlebot3_basic/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/turtlebot3_basic build --build-base /home/nippun/ros2_course_test/build/turtlebot3_basic/build install --record /home/nippun/ros2_course_test/build/turtlebot3_basic/install.log --single-version-externally-managed

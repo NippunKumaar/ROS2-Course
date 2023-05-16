@@ -1,0 +1,17 @@
+package.xml
+setup.cfg
+setup.py
+../../build/teleopbot/teleopbot.egg-info/PKG-INFO
+../../build/teleopbot/teleopbot.egg-info/SOURCES.txt
+../../build/teleopbot/teleopbot.egg-info/dependency_links.txt
+../../build/teleopbot/teleopbot.egg-info/entry_points.txt
+../../build/teleopbot/teleopbot.egg-info/requires.txt
+../../build/teleopbot/teleopbot.egg-info/top_level.txt
+../../build/teleopbot/teleopbot.egg-info/zip-safe
+resource/teleopbot
+teleopbot/Key_detect.py
+teleopbot/__init__.py
+teleopbot/motion_generator.py
+test/test_copyright.py
+test/test_flake8.py
+test/test_pep257.py

@@ -1,0 +1,38 @@
+running egg_info
+creating ../../build/teleopbot/teleopbot.egg-info
+writing ../../build/teleopbot/teleopbot.egg-info/PKG-INFO
+writing dependency_links to ../../build/teleopbot/teleopbot.egg-info/dependency_links.txt
+writing entry points to ../../build/teleopbot/teleopbot.egg-info/entry_points.txt
+writing requirements to ../../build/teleopbot/teleopbot.egg-info/requires.txt
+writing top-level names to ../../build/teleopbot/teleopbot.egg-info/top_level.txt
+writing manifest file '../../build/teleopbot/teleopbot.egg-info/SOURCES.txt'
+reading manifest file '../../build/teleopbot/teleopbot.egg-info/SOURCES.txt'
+writing manifest file '../../build/teleopbot/teleopbot.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/nippun/ros2_course_test/build/teleopbot/build
+creating /home/nippun/ros2_course_test/build/teleopbot/build/lib
+creating /home/nippun/ros2_course_test/build/teleopbot/build/lib/teleopbot
+copying teleopbot/__init__.py -> /home/nippun/ros2_course_test/build/teleopbot/build/lib/teleopbot
+copying teleopbot/motion_generator.py -> /home/nippun/ros2_course_test/build/teleopbot/build/lib/teleopbot
+copying teleopbot/Key_detect.py -> /home/nippun/ros2_course_test/build/teleopbot/build/lib/teleopbot
+running install
+running install_lib
+creating /home/nippun/ros2_course_test/install/teleopbot/lib/python3.10/site-packages/teleopbot
+copying /home/nippun/ros2_course_test/build/teleopbot/build/lib/teleopbot/__init__.py -> /home/nippun/ros2_course_test/install/teleopbot/lib/python3.10/site-packages/teleopbot
+copying /home/nippun/ros2_course_test/build/teleopbot/build/lib/teleopbot/motion_generator.py -> /home/nippun/ros2_course_test/install/teleopbot/lib/python3.10/site-packages/teleopbot
+copying /home/nippun/ros2_course_test/build/teleopbot/build/lib/teleopbot/Key_detect.py -> /home/nippun/ros2_course_test/install/teleopbot/lib/python3.10/site-packages/teleopbot
+byte-compiling /home/nippun/ros2_course_test/install/teleopbot/lib/python3.10/site-packages/teleopbot/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/nippun/ros2_course_test/install/teleopbot/lib/python3.10/site-packages/teleopbot/motion_generator.py to motion_generator.cpython-310.pyc
+byte-compiling /home/nippun/ros2_course_test/install/teleopbot/lib/python3.10/site-packages/teleopbot/Key_detect.py to Key_detect.cpython-310.pyc
+running install_data
+creating /home/nippun/ros2_course_test/install/teleopbot/share/ament_index
+creating /home/nippun/ros2_course_test/install/teleopbot/share/ament_index/resource_index
+creating /home/nippun/ros2_course_test/install/teleopbot/share/ament_index/resource_index/packages
+copying resource/teleopbot -> /home/nippun/ros2_course_test/install/teleopbot/share/ament_index/resource_index/packages
+copying package.xml -> /home/nippun/ros2_course_test/install/teleopbot/share/teleopbot
+running install_egg_info
+Copying ../../build/teleopbot/teleopbot.egg-info to /home/nippun/ros2_course_test/install/teleopbot/lib/python3.10/site-packages/teleopbot-0.0.0-py3.10.egg-info
+running install_scripts
+Installing teleop_node script to /home/nippun/ros2_course_test/install/teleopbot/lib/teleopbot
+writing list of installed files to '/home/nippun/ros2_course_test/build/teleopbot/install.log'

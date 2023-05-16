@@ -1,0 +1,4 @@
+[console_scripts]
+keyboard_driver = teleopbot.Key_detect:main
+teleop_node = teleopbot.motion_generator:main
+

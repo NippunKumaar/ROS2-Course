@@ -1,0 +1,4 @@
+[console_scripts]
+obs_detection_node = turtlebot3_basic.obs_detection:main
+start_stop_node = turtlebot3_basic.start_stop:main
+

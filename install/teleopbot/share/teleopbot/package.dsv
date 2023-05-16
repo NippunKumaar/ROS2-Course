@@ -1,0 +1,6 @@
+source;share/teleopbot/hook/pythonpath.ps1
+source;share/teleopbot/hook/pythonpath.dsv
+source;share/teleopbot/hook/pythonpath.sh
+source;share/teleopbot/hook/ament_prefix_path.ps1
+source;share/teleopbot/hook/ament_prefix_path.dsv
+source;share/teleopbot/hook/ament_prefix_path.sh

@@ -1,0 +1,23 @@
+running egg_info
+writing ../../build/teleopbot/teleopbot.egg-info/PKG-INFO
+writing dependency_links to ../../build/teleopbot/teleopbot.egg-info/dependency_links.txt
+writing entry points to ../../build/teleopbot/teleopbot.egg-info/entry_points.txt
+writing requirements to ../../build/teleopbot/teleopbot.egg-info/requires.txt
+writing top-level names to ../../build/teleopbot/teleopbot.egg-info/top_level.txt
+reading manifest file '../../build/teleopbot/teleopbot.egg-info/SOURCES.txt'
+writing manifest file '../../build/teleopbot/teleopbot.egg-info/SOURCES.txt'
+running build
+running build_py
+copying teleopbot/Key_detect.py -> /home/nippun/ros2_course_test/build/teleopbot/build/lib/teleopbot
+running install
+running install_lib
+copying /home/nippun/ros2_course_test/build/teleopbot/build/lib/teleopbot/Key_detect.py -> /home/nippun/ros2_course_test/install/teleopbot/lib/python3.10/site-packages/teleopbot
+byte-compiling /home/nippun/ros2_course_test/install/teleopbot/lib/python3.10/site-packages/teleopbot/Key_detect.py to Key_detect.cpython-310.pyc
+running install_data
+running install_egg_info
+removing '/home/nippun/ros2_course_test/install/teleopbot/lib/python3.10/site-packages/teleopbot-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../build/teleopbot/teleopbot.egg-info to /home/nippun/ros2_course_test/install/teleopbot/lib/python3.10/site-packages/teleopbot-0.0.0-py3.10.egg-info
+running install_scripts
+Installing keyboard_driver script to /home/nippun/ros2_course_test/install/teleopbot/lib/teleopbot
+Installing teleop_node script to /home/nippun/ros2_course_test/install/teleopbot/lib/teleopbot
+writing list of installed files to '/home/nippun/ros2_course_test/build/teleopbot/install.log'

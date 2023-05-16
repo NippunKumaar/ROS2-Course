@@ -1,0 +1,5 @@
+  File "/home/nippun/ros2_course_test/install/teleopbot/lib/python3.10/site-packages/teleopbot/Key_detect.py", line 15
+    	print(String(type(x))
+    	     ^
+SyntaxError: '(' was never closed
+

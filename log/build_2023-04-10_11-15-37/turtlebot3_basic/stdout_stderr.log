@@ -1,0 +1,36 @@
+running egg_info
+creating ../../build/turtlebot3_basic/turtlebot3_basic.egg-info
+writing ../../build/turtlebot3_basic/turtlebot3_basic.egg-info/PKG-INFO
+writing dependency_links to ../../build/turtlebot3_basic/turtlebot3_basic.egg-info/dependency_links.txt
+writing entry points to ../../build/turtlebot3_basic/turtlebot3_basic.egg-info/entry_points.txt
+writing requirements to ../../build/turtlebot3_basic/turtlebot3_basic.egg-info/requires.txt
+writing top-level names to ../../build/turtlebot3_basic/turtlebot3_basic.egg-info/top_level.txt
+writing manifest file '../../build/turtlebot3_basic/turtlebot3_basic.egg-info/SOURCES.txt'
+reading manifest file '../../build/turtlebot3_basic/turtlebot3_basic.egg-info/SOURCES.txt'
+writing manifest file '../../build/turtlebot3_basic/turtlebot3_basic.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/nippun/ros2_course_test/build/turtlebot3_basic/build
+creating /home/nippun/ros2_course_test/build/turtlebot3_basic/build/lib
+creating /home/nippun/ros2_course_test/build/turtlebot3_basic/build/lib/turtlebot3_basic
+copying turtlebot3_basic/start_stop.py -> /home/nippun/ros2_course_test/build/turtlebot3_basic/build/lib/turtlebot3_basic
+copying turtlebot3_basic/__init__.py -> /home/nippun/ros2_course_test/build/turtlebot3_basic/build/lib/turtlebot3_basic
+running install
+running install_lib
+creating /home/nippun/ros2_course_test/install/turtlebot3_basic/lib/python3.10/site-packages/turtlebot3_basic
+copying /home/nippun/ros2_course_test/build/turtlebot3_basic/build/lib/turtlebot3_basic/start_stop.py -> /home/nippun/ros2_course_test/install/turtlebot3_basic/lib/python3.10/site-packages/turtlebot3_basic
+copying /home/nippun/ros2_course_test/build/turtlebot3_basic/build/lib/turtlebot3_basic/__init__.py -> /home/nippun/ros2_course_test/install/turtlebot3_basic/lib/python3.10/site-packages/turtlebot3_basic
+byte-compiling /home/nippun/ros2_course_test/install/turtlebot3_basic/lib/python3.10/site-packages/turtlebot3_basic/start_stop.py to start_stop.cpython-310.pyc
+Sorry: IndentationError: unindent does not match any outer indentation level (start_stop.py, line 13)
+byte-compiling /home/nippun/ros2_course_test/install/turtlebot3_basic/lib/python3.10/site-packages/turtlebot3_basic/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /home/nippun/ros2_course_test/install/turtlebot3_basic/share/ament_index
+creating /home/nippun/ros2_course_test/install/turtlebot3_basic/share/ament_index/resource_index
+creating /home/nippun/ros2_course_test/install/turtlebot3_basic/share/ament_index/resource_index/packages
+copying resource/turtlebot3_basic -> /home/nippun/ros2_course_test/install/turtlebot3_basic/share/ament_index/resource_index/packages
+copying package.xml -> /home/nippun/ros2_course_test/install/turtlebot3_basic/share/turtlebot3_basic
+running install_egg_info
+Copying ../../build/turtlebot3_basic/turtlebot3_basic.egg-info to /home/nippun/ros2_course_test/install/turtlebot3_basic/lib/python3.10/site-packages/turtlebot3_basic-0.0.0-py3.10.egg-info
+running install_scripts
+Installing start_stop_node script to /home/nippun/ros2_course_test/install/turtlebot3_basic/lib/turtlebot3_basic
+writing list of installed files to '/home/nippun/ros2_course_test/build/turtlebot3_basic/install.log'
