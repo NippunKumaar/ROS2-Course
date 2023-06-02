@@ -1,0 +1,37 @@
+[3.002s] Invoking command in '/home/nippun/ros2_course_test/src/my_first_robot': PYTHONPATH=/home/nippun/ros2_course_test/build/my_first_robot/prefix_override:/home/nippun/ros2_course_test/install/my_first_robot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/my_first_robot build --build-base /home/nippun/ros2_course_test/build/my_first_robot/build install --record /home/nippun/ros2_course_test/build/my_first_robot/install.log --single-version-externally-managed
+[3.566s] running egg_info
+[3.567s] creating ../../build/my_first_robot/my_first_robot.egg-info
+[3.567s] writing ../../build/my_first_robot/my_first_robot.egg-info/PKG-INFO
+[3.568s] writing dependency_links to ../../build/my_first_robot/my_first_robot.egg-info/dependency_links.txt
+[3.568s] writing entry points to ../../build/my_first_robot/my_first_robot.egg-info/entry_points.txt
+[3.568s] writing requirements to ../../build/my_first_robot/my_first_robot.egg-info/requires.txt
+[3.568s] writing top-level names to ../../build/my_first_robot/my_first_robot.egg-info/top_level.txt
+[3.569s] writing manifest file '../../build/my_first_robot/my_first_robot.egg-info/SOURCES.txt'
+[3.571s] reading manifest file '../../build/my_first_robot/my_first_robot.egg-info/SOURCES.txt'
+[3.572s] writing manifest file '../../build/my_first_robot/my_first_robot.egg-info/SOURCES.txt'
+[3.573s] running build
+[3.573s] running build_py
+[3.573s] creating /home/nippun/ros2_course_test/build/my_first_robot/build
+[3.574s] creating /home/nippun/ros2_course_test/build/my_first_robot/build/lib
+[3.574s] creating /home/nippun/ros2_course_test/build/my_first_robot/build/lib/my_first_robot
+[3.574s] copying my_first_robot/tortoise_bot_spawn_client.py -> /home/nippun/ros2_course_test/build/my_first_robot/build/lib/my_first_robot
+[3.574s] copying my_first_robot/__init__.py -> /home/nippun/ros2_course_test/build/my_first_robot/build/lib/my_first_robot
+[3.575s] running install
+[3.575s] running install_lib
+[3.576s] creating /home/nippun/ros2_course_test/install/my_first_robot/lib/python3.10/site-packages/my_first_robot
+[3.576s] copying /home/nippun/ros2_course_test/build/my_first_robot/build/lib/my_first_robot/tortoise_bot_spawn_client.py -> /home/nippun/ros2_course_test/install/my_first_robot/lib/python3.10/site-packages/my_first_robot
+[3.576s] copying /home/nippun/ros2_course_test/build/my_first_robot/build/lib/my_first_robot/__init__.py -> /home/nippun/ros2_course_test/install/my_first_robot/lib/python3.10/site-packages/my_first_robot
+[3.577s] byte-compiling /home/nippun/ros2_course_test/install/my_first_robot/lib/python3.10/site-packages/my_first_robot/tortoise_bot_spawn_client.py to tortoise_bot_spawn_client.cpython-310.pyc
+[3.578s] byte-compiling /home/nippun/ros2_course_test/install/my_first_robot/lib/python3.10/site-packages/my_first_robot/__init__.py to __init__.cpython-310.pyc
+[3.578s] running install_data
+[3.579s] creating /home/nippun/ros2_course_test/install/my_first_robot/share/ament_index
+[3.580s] creating /home/nippun/ros2_course_test/install/my_first_robot/share/ament_index/resource_index
+[3.580s] creating /home/nippun/ros2_course_test/install/my_first_robot/share/ament_index/resource_index/packages
+[3.580s] copying resource/my_first_robot -> /home/nippun/ros2_course_test/install/my_first_robot/share/ament_index/resource_index/packages
+[3.580s] copying package.xml -> /home/nippun/ros2_course_test/install/my_first_robot/share/my_first_robot
+[3.580s] running install_egg_info
+[3.583s] Copying ../../build/my_first_robot/my_first_robot.egg-info to /home/nippun/ros2_course_test/install/my_first_robot/lib/python3.10/site-packages/my_first_robot-0.0.0-py3.10.egg-info
+[3.584s] running install_scripts
+[3.615s] Installing spwan_tortoisebot script to /home/nippun/ros2_course_test/install/my_first_robot/lib/my_first_robot
+[3.615s] writing list of installed files to '/home/nippun/ros2_course_test/build/my_first_robot/install.log'
+[3.661s] Invoked command in '/home/nippun/ros2_course_test/src/my_first_robot' returned '0': PYTHONPATH=/home/nippun/ros2_course_test/build/my_first_robot/prefix_override:/home/nippun/ros2_course_test/install/my_first_robot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/my_first_robot build --build-base /home/nippun/ros2_course_test/build/my_first_robot/build install --record /home/nippun/ros2_course_test/build/my_first_robot/install.log --single-version-externally-managed

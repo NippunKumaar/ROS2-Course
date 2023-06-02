@@ -1,0 +1,3 @@
+[console_scripts]
+spwan_tortoisebot = my_first_robot.tortoise_bot_spawn_client:main
+

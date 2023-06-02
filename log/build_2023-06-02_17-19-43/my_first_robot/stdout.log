@@ -1,0 +1,22 @@
+running egg_info
+writing ../../build/my_first_robot/my_first_robot.egg-info/PKG-INFO
+writing dependency_links to ../../build/my_first_robot/my_first_robot.egg-info/dependency_links.txt
+writing entry points to ../../build/my_first_robot/my_first_robot.egg-info/entry_points.txt
+writing requirements to ../../build/my_first_robot/my_first_robot.egg-info/requires.txt
+writing top-level names to ../../build/my_first_robot/my_first_robot.egg-info/top_level.txt
+reading manifest file '../../build/my_first_robot/my_first_robot.egg-info/SOURCES.txt'
+writing manifest file '../../build/my_first_robot/my_first_robot.egg-info/SOURCES.txt'
+running build
+running build_py
+copying my_first_robot/tortoise_bot_spawn_client.py -> /home/nippun/ros2_course_test/build/my_first_robot/build/lib/my_first_robot
+running install
+running install_lib
+copying /home/nippun/ros2_course_test/build/my_first_robot/build/lib/my_first_robot/tortoise_bot_spawn_client.py -> /home/nippun/ros2_course_test/install/my_first_robot/lib/python3.10/site-packages/my_first_robot
+byte-compiling /home/nippun/ros2_course_test/install/my_first_robot/lib/python3.10/site-packages/my_first_robot/tortoise_bot_spawn_client.py to tortoise_bot_spawn_client.cpython-310.pyc
+running install_data
+running install_egg_info
+removing '/home/nippun/ros2_course_test/install/my_first_robot/lib/python3.10/site-packages/my_first_robot-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../build/my_first_robot/my_first_robot.egg-info to /home/nippun/ros2_course_test/install/my_first_robot/lib/python3.10/site-packages/my_first_robot-0.0.0-py3.10.egg-info
+running install_scripts
+Installing spwan_tortoisebot script to /home/nippun/ros2_course_test/install/my_first_robot/lib/my_first_robot
+writing list of installed files to '/home/nippun/ros2_course_test/build/my_first_robot/install.log'

@@ -1,0 +1,16 @@
+package.xml
+setup.cfg
+setup.py
+../../build/my_first_robot/my_first_robot.egg-info/PKG-INFO
+../../build/my_first_robot/my_first_robot.egg-info/SOURCES.txt
+../../build/my_first_robot/my_first_robot.egg-info/dependency_links.txt
+../../build/my_first_robot/my_first_robot.egg-info/entry_points.txt
+../../build/my_first_robot/my_first_robot.egg-info/requires.txt
+../../build/my_first_robot/my_first_robot.egg-info/top_level.txt
+../../build/my_first_robot/my_first_robot.egg-info/zip-safe
+my_first_robot/__init__.py
+my_first_robot/tortoise_bot_spawn_client.py
+resource/my_first_robot
+test/test_copyright.py
+test/test_flake8.py
+test/test_pep257.py
