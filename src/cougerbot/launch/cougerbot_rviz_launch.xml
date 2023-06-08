@@ -1,0 +1,11 @@
+<launch>
+
+
+
+<executable cmd="ros2 launch urdf_tutorial display.launch.py model:=$(find-pkg-share cougerbot)/urdf/cougerbot.urdf" output='screen' />
+
+<node pkg="controller_manager" exec="spawner" args="arm_controller">
+	<param from="$(find-pkg-share cougerbot)/config/controllers.yaml" />
+</node>
+
+</launch>

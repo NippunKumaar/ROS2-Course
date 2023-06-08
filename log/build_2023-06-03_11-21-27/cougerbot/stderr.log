@@ -1,0 +1,10 @@
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/colcon_core/executor/__init__.py", line 91, in __call__
+    rc = await self.task(*args, **kwargs)
+  File "/usr/lib/python3/dist-packages/colcon_core/task/__init__.py", line 93, in __call__
+    return await task_method(*args, **kwargs)
+  File "/usr/lib/python3/dist-packages/colcon_ros/task/ament_python/build.py", line 54, in build
+    data_files = get_data_files_mapping(
+  File "/usr/lib/python3/dist-packages/colcon_core/task/python/__init__.py", line 36, in get_data_files_mapping
+    assert len(data_file) == 2
+AssertionError

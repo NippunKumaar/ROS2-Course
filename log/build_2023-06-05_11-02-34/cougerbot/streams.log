@@ -1,0 +1,17 @@
+[1.432s] Invoking command in '/home/nippun/ros2_course_test/src/cougerbot': PYTHONPATH=/home/nippun/ros2_course_test/build/cougerbot/prefix_override:/home/nippun/ros2_course_test/install/cougerbot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/cougerbot build --build-base /home/nippun/ros2_course_test/build/cougerbot/build install --record /home/nippun/ros2_course_test/build/cougerbot/install.log --single-version-externally-managed
+[1.965s] running egg_info
+[1.966s] writing ../../build/cougerbot/cougerbot.egg-info/PKG-INFO
+[1.967s] writing dependency_links to ../../build/cougerbot/cougerbot.egg-info/dependency_links.txt
+[1.967s] writing entry points to ../../build/cougerbot/cougerbot.egg-info/entry_points.txt
+[1.967s] writing requirements to ../../build/cougerbot/cougerbot.egg-info/requires.txt
+[1.968s] writing top-level names to ../../build/cougerbot/cougerbot.egg-info/top_level.txt
+[1.971s] reading manifest file '../../build/cougerbot/cougerbot.egg-info/SOURCES.txt'
+[1.972s] writing manifest file '../../build/cougerbot/cougerbot.egg-info/SOURCES.txt'
+[1.972s] running build
+[1.973s] running build_py
+[1.973s] running install
+[1.973s] running install_lib
+[1.975s] running install_data
+[1.976s] copying launch/cougerbot.launch.py -> /home/nippun/ros2_course_test/install/cougerbot/share/cougerbot
+[1.977s] error: can't copy 'launch/cougerbot.xml': doesn't exist or not a regular file
+[2.007s] Invoked command in '/home/nippun/ros2_course_test/src/cougerbot' returned '1': PYTHONPATH=/home/nippun/ros2_course_test/build/cougerbot/prefix_override:/home/nippun/ros2_course_test/install/cougerbot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/cougerbot build --build-base /home/nippun/ros2_course_test/build/cougerbot/build install --record /home/nippun/ros2_course_test/build/cougerbot/install.log --single-version-externally-managed

@@ -1,0 +1,28 @@
+[0.000000] (-) TimerEvent: {}
+[0.001440] (-) JobUnselected: {'identifier': 'add_two_ints'}
+[0.001555] (-) JobUnselected: {'identifier': 'adding_integers'}
+[0.001616] (-) JobUnselected: {'identifier': 'complex_msg'}
+[0.001650] (-) JobUnselected: {'identifier': 'complex_talker_listener'}
+[0.003265] (-) JobUnselected: {'identifier': 'fibonacci_action_interface'}
+[0.003378] (-) JobUnselected: {'identifier': 'fibonacci_server_client'}
+[0.003448] (-) JobUnselected: {'identifier': 'my_first_package'}
+[0.003515] (-) JobUnselected: {'identifier': 'my_first_robot'}
+[0.003580] (-) JobUnselected: {'identifier': 'nav_goal_send'}
+[0.003644] (-) JobUnselected: {'identifier': 'talker_listener'}
+[0.003709] (-) JobUnselected: {'identifier': 'teleopbot'}
+[0.003774] (-) JobUnselected: {'identifier': 'turtlebot3_basic'}
+[0.003838] (-) JobUnselected: {'identifier': 'turtlesim_control'}
+[0.003903] (-) JobUnselected: {'identifier': 'word_count'}
+[0.003969] (-) JobUnselected: {'identifier': 'word_count_msg'}
+[0.004120] (cougerbot) JobQueued: {'identifier': 'cougerbot', 'dependencies': OrderedDict()}
+[0.004239] (cougerbot) JobStarted: {'identifier': 'cougerbot'}
+[0.099464] (-) TimerEvent: {}
+[0.199853] (-) TimerEvent: {}
+[0.300233] (-) TimerEvent: {}
+[0.400643] (-) TimerEvent: {}
+[0.501044] (-) TimerEvent: {}
+[0.601460] (-) TimerEvent: {}
+[0.701963] (-) TimerEvent: {}
+[0.703204] (cougerbot) StderrLine: {'line': b'Traceback (most recent call last):\n  File "/usr/lib/python3/dist-packages/colcon_core/executor/__init__.py", line 91, in __call__\n    rc = await self.task(*args, **kwargs)\n  File "/usr/lib/python3/dist-packages/colcon_core/task/__init__.py", line 93, in __call__\n    return await task_method(*args, **kwargs)\n  File "/usr/lib/python3/dist-packages/colcon_ros/task/ament_python/build.py", line 54, in build\n    data_files = get_data_files_mapping(\n  File "/usr/lib/python3/dist-packages/colcon_core/task/python/__init__.py", line 36, in get_data_files_mapping\n    assert len(data_file) == 2\nAssertionError\n'}
+[0.703977] (cougerbot) JobEnded: {'identifier': 'cougerbot', 'rc': 1}
+[0.714038] (-) EventReactorShutdown: {}

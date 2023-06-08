@@ -1,0 +1,21 @@
+[1.592s] Invoking command in '/home/nippun/ros2_course_test/src/cougerbot': PYTHONPATH=/home/nippun/ros2_course_test/build/cougerbot/prefix_override:/home/nippun/ros2_course_test/install/cougerbot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/cougerbot build --build-base /home/nippun/ros2_course_test/build/cougerbot/build install --record /home/nippun/ros2_course_test/build/cougerbot/install.log --single-version-externally-managed
+[2.164s] running egg_info
+[2.165s] writing ../../build/cougerbot/cougerbot.egg-info/PKG-INFO
+[2.165s] writing dependency_links to ../../build/cougerbot/cougerbot.egg-info/dependency_links.txt
+[2.165s] writing entry points to ../../build/cougerbot/cougerbot.egg-info/entry_points.txt
+[2.166s] writing requirements to ../../build/cougerbot/cougerbot.egg-info/requires.txt
+[2.166s] writing top-level names to ../../build/cougerbot/cougerbot.egg-info/top_level.txt
+[2.169s] reading manifest file '../../build/cougerbot/cougerbot.egg-info/SOURCES.txt'
+[2.170s] writing manifest file '../../build/cougerbot/cougerbot.egg-info/SOURCES.txt'
+[2.170s] running build
+[2.170s] running build_py
+[2.171s] running install
+[2.171s] running install_lib
+[2.174s] running install_data
+[2.176s] running install_egg_info
+[2.179s] removing '/home/nippun/ros2_course_test/install/cougerbot/lib/python3.10/site-packages/cougerbot-0.0.0-py3.10.egg-info' (and everything under it)
+[2.179s] Copying ../../build/cougerbot/cougerbot.egg-info to /home/nippun/ros2_course_test/install/cougerbot/lib/python3.10/site-packages/cougerbot-0.0.0-py3.10.egg-info
+[2.180s] running install_scripts
+[2.214s] Installing spawn_cougerbot script to /home/nippun/ros2_course_test/install/cougerbot/lib/cougerbot
+[2.215s] writing list of installed files to '/home/nippun/ros2_course_test/build/cougerbot/install.log'
+[2.267s] Invoked command in '/home/nippun/ros2_course_test/src/cougerbot' returned '0': PYTHONPATH=/home/nippun/ros2_course_test/build/cougerbot/prefix_override:/home/nippun/ros2_course_test/install/cougerbot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/cougerbot build --build-base /home/nippun/ros2_course_test/build/cougerbot/build install --record /home/nippun/ros2_course_test/build/cougerbot/install.log --single-version-externally-managed

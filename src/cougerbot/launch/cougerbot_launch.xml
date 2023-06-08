@@ -1,0 +1,25 @@
+<launch>
+
+<!-- Start Gazebo with an empty world -->
+<group>
+<include file="$(find-pkg-share gazebo_ros)/launch/gazebo.launch.py"/>
+</group>
+
+ <node pkg='robot_state_publisher' exec='robot_state_publisher' output='screen'>
+ 	<param name='robot_description' value="$(command 'cat $(find-pkg-share cougerbot)/urdf/cougerbot.urdf')" type="str"/>
+ </node>
+
+<node pkg='gazebo_ros' exec='spawn_entity.py' args=' -topic robot_description -entity joints' output='screen'>
+	<param name='robot_description' value="$(command 'cat $(find-pkg-share cougerbot)/urdf/cougerbot.urdf')" type="str"/>
+</node>
+
+<!-- <node pkg='cougerbot' exec='spawn_cougerbot' /> -->
+
+<!-- <node pkg='controller_manager' exec='spawner' args="joint_state_broadcaster controller-manager /controller_manager" output='screen'/>
+
+<node pkg='controller_manager' exec='spawner' args="joint_trajectory_controller -c /controller_manager" output='screen'/> -->
+
+<executable cmd="ros2 control load_controller --set-state active joint_state_broadcaster" output='screen' />
+
+<executable cmd="ros2 control load_controller --set-state active arm_controller" output='screen' />
+</launch>

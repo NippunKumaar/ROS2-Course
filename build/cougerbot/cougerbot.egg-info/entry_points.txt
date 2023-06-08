@@ -1,0 +1,3 @@
+[console_scripts]
+spawn_cougerbot = cougerbot.cougerbot_spawn_client:main
+

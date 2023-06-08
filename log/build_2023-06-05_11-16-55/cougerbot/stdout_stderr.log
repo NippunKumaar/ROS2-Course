@@ -1,0 +1,21 @@
+running egg_info
+writing ../../build/cougerbot/cougerbot.egg-info/PKG-INFO
+writing dependency_links to ../../build/cougerbot/cougerbot.egg-info/dependency_links.txt
+writing entry points to ../../build/cougerbot/cougerbot.egg-info/entry_points.txt
+writing requirements to ../../build/cougerbot/cougerbot.egg-info/requires.txt
+writing top-level names to ../../build/cougerbot/cougerbot.egg-info/top_level.txt
+reading manifest file '../../build/cougerbot/cougerbot.egg-info/SOURCES.txt'
+writing manifest file '../../build/cougerbot/cougerbot.egg-info/SOURCES.txt'
+running build
+running build_py
+running install
+running install_lib
+running install_data
+copying launch/cougerbot.launch.py -> /home/nippun/ros2_course_test/install/cougerbot/share/cougerbot
+copying urdf/cougerbot.urdf -> /home/nippun/ros2_course_test/install/cougerbot/share/cougerbot
+running install_egg_info
+removing '/home/nippun/ros2_course_test/install/cougerbot/lib/python3.10/site-packages/cougerbot-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../build/cougerbot/cougerbot.egg-info to /home/nippun/ros2_course_test/install/cougerbot/lib/python3.10/site-packages/cougerbot-0.0.0-py3.10.egg-info
+running install_scripts
+Installing spawn_cougerbot script to /home/nippun/ros2_course_test/install/cougerbot/lib/cougerbot
+writing list of installed files to '/home/nippun/ros2_course_test/build/cougerbot/install.log'
