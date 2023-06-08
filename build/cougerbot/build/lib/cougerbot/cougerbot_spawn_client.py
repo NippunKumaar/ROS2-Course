@@ -27,7 +27,6 @@ def main():
     request = SpawnEntity.Request()
     request.name = 'cougerbot'
     request.xml = open(urdf_file_path, 'r').read()
-    request.robot_namespace = 'cougerbot'
     request.initial_pose.position.x = 0.0
     request.initial_pose.position.y = 0.0
     request.initial_pose.position.z = 0.0

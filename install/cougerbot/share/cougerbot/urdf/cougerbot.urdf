@@ -135,7 +135,7 @@
 		<origin rpy="0 0 0" xyz="0.0 0.0 0.425"/>
 	</joint>
 
-	<ros2_control name="GazeboSystem" type="system">
+	<ros2_control name="GazeboSimSystem" type="system">
 		<hardware>
 			<plugin>gazebo_ros2_control/GazeboSystem</plugin>
 		</hardware>
@@ -175,6 +175,7 @@
 	
 	<gazebo>
 		<plugin name="gazebo_ros2_control" filename="libgazebo_ros2_control.so">
+			<robot_sim_type>gazebo_ros2_control/GazeboSystem</robot_sim_type>
 			<parameters>/home/nippun/ros2_course_test/install/cougerbot/share/cougerbot/config/controllers.yaml</parameters>
 		</plugin>
 	</gazebo>

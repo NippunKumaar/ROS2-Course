@@ -1,24 +1,23 @@
 controller_manager:
-  ros__paramaters:
-    update_rate: 100 #Hz
-    use_sim_time: true
+  ros__parameters:
+    update_rate: 100  # Hz
 
-    arm_controller:
-      type: "joint_trajectory_controller/JointTrajectoryController"
+    joint_trajectory_controller:
+      type: joint_trajectory_controller/JointTrajectoryController
 
     joint_state_broadcaster:
-      type: "joint_state_broadcaster/JointStateBroadcaster"
+      type: joint_state_broadcaster/JointStateBroadcaster
 
-  arm_controller:
-    ros__paramaters:
-      command_interfaces:
-        - position
-      state_interfaces:
-        - position
-        - velocity
-      joints:
-        - hip
-        - shoulder
-        - elbow
-        - wrist
-
+joint_trajectory_controller:
+  ros__parameters:
+    joints:
+      - hip
+      - shoulder
+      - elbow
+      - wrist
+    interface_name: position
+    command_interfaces:
+      - position
+    state_interfaces:
+      - position
+      - velocity
